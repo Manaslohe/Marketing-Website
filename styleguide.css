@@ -1,0 +1,19 @@
+:root {
+  --black-100: rgba(0, 0, 0, 1);
+  --black-90: rgba(34, 34, 34, 1);
+  --grey-1: rgba(96, 102, 113, 1);
+  --white-100: rgba(255, 255, 255, 1);
+  --grey-2: rgba(255, 255, 255, 1);
+  --green-1: rgba(83, 255, 152, 1);
+  --grey-outline: rgba(96, 102, 113, 0.5);
+  --grey-3: rgba(255, 255, 255, 1);
+  --outline-2: rgba(96, 102, 113, 0.7);
+  --blue: rgba(81, 192, 255, 1);
+  --red: rgba(255, 83, 83, 1);
+  --flowkitpurple: rgba(123, 97, 255, 1);
+  --flowkitcharcoal: rgba(34, 34, 34, 1);
+  --flowkitred: rgba(252, 85, 85, 1);
+  --flowkitgreen: rgba(41, 204, 106, 1);
+  --flowkitblue: rgba(0, 153, 255, 1);
+  --flowkitwhite: rgba(255, 255, 255, 1);
+}
