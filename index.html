@@ -9,24 +9,15 @@
     <link rel="stylesheet" href="./preloader.css" />
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        var preloader = document.getElementById("preloader");
-        var delay = 1000;
+        var preloader = document.querySelector(".loading");
+        var delay = 3000; // Set the timeout to 3 seconds (3000 milliseconds)
+  
         setTimeout(function () {
+          preloader.style.display = "none";
         }, delay);
       });
     </script>
-    <script>
-      $(window).on("load", function () {
-          $('#mdb-preloader').fadeOut('slow');
-      });
-      $(function () {
-          $.nette.init();
-          $('[data-toggle="tooltip"]').tooltip();
-          $('body').tooltip({ selector: '[data-toggle="tooltip"]' });
-          $(".button-collapse").sideNav();
-      });
-  </script>
-  </head> 
+  </head>
   <body>
     <div class='loading'>
       <div class='logo'></div>
