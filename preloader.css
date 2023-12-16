@@ -14,7 +14,7 @@
   }
   
   body {
-    background: linear-gradient(45deg, #000000 0%, #000000 20%, #59018c 40%, #5500de 60%, #6a0707 80%, #fa1a05 100%);
+    background: linear-gradient(45deg, #000000 0%, #000000 20%, #59018c 40%, #5500de 60%, #390260 80%, #000000 100%);
     background-size: 600%;
     background-position: 0% 100%;
     -webkit-animation: gradient 7s ease-in-out infinite;

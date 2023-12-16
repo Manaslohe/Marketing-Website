@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./preloader.css" />
+    <script src="./rotable.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         var preloader = document.querySelector(".loading");
@@ -17,6 +18,7 @@
         }, delay);
       });
     </script>
+    
   </head>
   <body>
     <div class='loading'>
@@ -99,57 +101,32 @@
           </div>
           <div class="text-wrapper-6">Features</div>
           <div class="frame-8">
-            <img class="download-on-the-app" src="img/download-on-the-app-store-1.svg" />
-            <img class="en-badge-web-generic" src="img/en-badge-web-generic-2.png" />
+            <a href="#"><img class="download-on-the-app" src="img/download-on-the-app-store-1.svg" alt="Download on the App Store" /> </a>
+            <a href="#"><img class="en-badge-web-generic" src="img/en-badge-web-generic-2.png" alt="Your Alt Text" /></a>
+            
           </div>
           <div class="group">
             <div class="overlap-4">
               <div class="EXPLORE-MORE-EXPLORE">
-                <div class="text-wrapper-7">•</div>
-                <div class="text-wrapper-8"></div>
-                <div class="overlap-5">
-                  <div class="text-wrapper-9">E</div>
-                  <div class="overlap-6">
-                    <div class="text-wrapper-10">R</div>
-                    <div class="overlap-group-2">
-                      <div class="text-wrapper-11">O</div>
-                      <div class="text-wrapper-12">M</div>
-                      <div class="text-wrapper-13"></div>
-                      <div class="text-wrapper-14">E</div>
-                      <div class="text-wrapper-15">R</div>
-                      <div class="text-wrapper-16">O</div>
-                      <div class="text-wrapper-17">L</div>
-                    </div>
-                    <div class="text-wrapper-18">P</div>
-                  </div>
-                  <div class="text-wrapper-19">X</div>
+                <div class="image11"><img class="" src="./img/EXPLORE MORE • EXPLORE MORE •.png" /></div>
+
+                <div class="arrow" id="scroll-down-arrow">
+                  <img class="arrow-2" src="img/arrow-3.svg" alt="Scroll Down Arrow" />
                 </div>
-                <div class="text-wrapper-20">E</div>
-                <div class="overlap-7">
-                  <div class="text-wrapper-21"></div>
-                  <div class="text-wrapper-22">•</div>
-                </div>
-                <div class="text-wrapper-23"></div>
-                <div class="overlap-8">
-                  <div class="text-wrapper-24">E</div>
-                  <div class="overlap-9">
-                    <div class="text-wrapper-25">R</div>
-                    <div class="overlap-10">
-                      <div class="text-wrapper-26">O</div>
-                      <div class="text-wrapper-27">M</div>
-                      <div class="text-wrapper-28"></div>
-                      <div class="text-wrapper-29">E</div>
-                      <div class="text-wrapper-30">R</div>
-                      <div class="text-wrapper-31">O</div>
-                      <div class="text-wrapper-32">L</div>
-                    </div>
-                    <div class="text-wrapper-33">P</div>
-                  </div>
-                  <div class="text-wrapper-34">X</div>
-                </div>
-                <div class="text-wrapper-35">E</div>
-              </div>
-              <div class="arrow"><img class="arrow-2" src="img/arrow-3.svg" /></div>
+                
+                <script>
+                  document.addEventListener("DOMContentLoaded", function () {
+                    document.getElementById("scroll-down-arrow").addEventListener("click", function () {
+                      window.scrollBy({
+                        top: window.innerHeight,
+                        behavior: "smooth"
+                      });
+                    });
+                  });
+                </script>
+                
+              
+              
             </div>
           </div>
           <img class="image-3" src="img/image-126.png" />

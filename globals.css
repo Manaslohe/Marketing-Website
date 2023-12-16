@@ -1,23 +1,30 @@
+/* Import the reset.css */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+/* Apply a base style to all elements */
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-html,
-body {
-  margin: 0px;
+
+/* Set margin and height for html and body elements */
+html, body {
+  margin: 0;
   height: 100%;
-  overflow-y: auto; /* Allow vertical scrolling */
 }
-/* a blue color as a generic focus style */
+
+/* Define a generic focus style for buttons */
 button:focus-visible {
   outline: 2px solid #4a90e2 !important;
   outline: -webkit-focus-ring-color auto 5px !important;
 }
+
+/* Remove text decoration for anchor elements */
 a {
   text-decoration: none;
 }
 
+/* Define font faces */
 @font-face {
   font-family: "Open Sauce One-Bold";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/608719173217b66d32be7619/fonts/opensauceone-bold.ttf")
@@ -40,4 +47,14 @@ a {
   font-family: "Open Sauce One-SemiBold";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/608719173217b66d32be7619/fonts/opensauceone-semibold.ttf")
     format("truetype");
+}
+
+/* Media query for screens smaller than 600px (adjust the value as needed) */
+@media screen and (max-width: 600px) {
+  /* Add responsive styles here */
+  body {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+
+  /* You can add more styles specific to smaller screens */
 }

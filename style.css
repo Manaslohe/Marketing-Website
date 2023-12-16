@@ -190,8 +190,16 @@
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
+  white-space: nowrap;
+  opacity: 1; /* Start with opacity set to 0 */
+  transition: opacity 0.5s ease, color 0.5s ease; /* Add transitions for opacity and color changes */
 }
+.rotable-homepage .text-wrapper-2:hover {
+  opacity: 1; /* Set opacity to 1 on hover */
+  animation: fadeIn 0.5s ease;
+  color:var(--white-100); /* Change text color to white on hover */}
 
+/* Base styles for .text-wrapper-3 */
 .rotable-homepage .text-wrapper-3 {
   position: absolute;
   top: 16px;
@@ -203,7 +211,18 @@
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
+  opacity: 1; /* Start with opacity set to 0 */
+  transition: opacity 0.5s ease, color 0.5s ease; /* Add transitions for opacity and color changes */
 }
+
+/* Apply the fade-in animation to the text-wrapper-3 element */
+.rotable-homepage .text-wrapper-3:hover {
+  opacity: 1; /* Set opacity to 1 on hover */
+  animation: fadeIn 0.5s ease;
+  color:var(--green-1); /* Change text color to white on hover */
+}
+
+
 
 .rotable-homepage .text-wrapper-4 {
   position: absolute;
@@ -271,12 +290,22 @@
   position: relative;
   width: 180.87px;
   height: 60px;
+  transition: all 0.3s ease; /* Add a smooth transition for a smoother hover effect */
 }
 
+.rotable-homepage .download-on-the-app:hover {
+  box-shadow: 0 0 10px 4px rgb(83, 255, 152); /* Increase blur and spread for a more visible shadow effect */
+  border-radius: 14px; /* Adjust the radius to make corners smooth on hover */
+}
 .rotable-homepage .en-badge-web-generic {
   position: relative;
   width: 201.3px;
   height: 60px;
+ transition: all 0.3s ease; /* Add a smooth transition for a smoother hover effect */
+}
+.rotable-homepage .en-badge-web-generic:hover {
+  box-shadow: 0 0 10px 4px rgb(83, 255, 152); /* Increase blur and spread for a more visible shadow effect */
+  border-radius: 14px; /* Adjust the radius to make corners smooth on hover */
 }
 
 .rotable-homepage .group {
@@ -292,14 +321,50 @@
   width: 176px;
   height: 118px;
 }
+.image11 img {
+  width: 120px; /* Adjust the width if needed */
+  height: 120px; /* Maintain aspect ratio */
+  animation: rotateImage 10s linear infinite; /* Slow down the rotation duration */
+  transition: transform 0.3s ease; /* Add a smooth transition for scaling */
+}
+
+.image11 img:hover {
+  transform: scale(1.2); /* Expand the image on hover */
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media query for screens smaller than 600px (adjust the value as needed) */
+@media screen and (max-width: 600px) {
+  .image11 img {
+    width: 80px; /* Adjust the width for smaller screens */
+    height: 80px; /* Maintain aspect ratio */
+  }
+}
+
+
 
 .rotable-homepage .EXPLORE-MORE-EXPLORE {
   position: absolute;
-  width: 176px;
-  height: 118px;
+  width: 120px;
+  height: 120px;
   top: 0;
   left: 0;
+  overflow: hidden; /* Hide overflowing content */
+  transition: transform 0.3s ease; /* Add a smooth transition for scaling */
 }
+
+.rotable-homepage .EXPLORE-MORE-EXPLORE:hover {
+  transform: scale(1.2); /* Expand the image on hover */
+}
+
 
 .rotable-homepage .text-wrapper-7 {
   left: 50px;
