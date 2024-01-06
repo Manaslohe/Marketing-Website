@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./preloader.css" />
+    <link rel="stylesheet" href="./footer.css" />
     <script src="./rotable.js"></script>
     <script src="./scroll.js"></script>
     <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
@@ -221,6 +222,7 @@
             });
           </script>
         </div><div>
+          
         <div class="buttons">
           <div class="main-button"><button class="button">Get Rotable Now</button></div>
           <div class="arrow-wrapper"><img class="arrow-3" src="img/arrow-2.svg" /></div>
@@ -231,9 +233,42 @@
         </div>
       </div>
     </div> 
-     <p class="element-rotable">©2023 Rotable Technologies Pvt. Ltd.&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved.</p>
-     <div>
-    
+    <div class="main">
+      <div class="footer">
+        <div class="bubbles">
+          <!-- Loop for creating bubbles -->
+          <!-- Note: In Pug, the loop starts with a hyphen (-) -->
+          <!-- In HTML, we use a standard for loop within a script tag -->
+          <script>
+            for (var i = 0; i < 128; i++) {
+              document.write(`
+                <div class="bubble" style="--size:${2+Math.random()*4}rem; --distance:${6+Math.random()*4}rem; --position:${-5+Math.random()*110}%; --time:${2+Math.random()*2}s; --delay:${-1*(2+Math.random()*2)}s;"></div>
+              `);
+            }
+          </script>
+        </div>
+        <div class="content">
+          <div>
+            <div>
+              <b>©2023 Rotable Technologies Pvt. Ltd.&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved.</b>
+            </div>
+          </div>
+          <div>
+            <a href="https://codepen.io/z-" target="_blank" class="image" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg')"></a>
+            <p>©2019 Not Really</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg style="position:fixed; top:100vh">
+      <defs>
+        <filter id="blob">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"></feColorMatrix>
+          <!--feComposite in="SourceGraphic" in2="blob" operator="atop"--> <!--Commented out as it's not necessary for the blob effect-->
+        </filter>
+      </defs>
+    </svg>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -148,9 +148,18 @@
   top: 0;
   left: 433px;
   position: absolute;
-  width: 333px;
+  width: 322px;
   height: 672px;
   object-fit: cover;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 1s ease-in-out 4s,transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px; /* Transition properties with a delay of 5 seconds */
+}
+
+.rotable-homepage .image:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
 }
 
 .rotable-homepage .vector {
@@ -161,66 +170,94 @@
   left: 163px;
 }
 
-.rotable-homepage .img {
+.rotable-homepage .image-1 {
   top: 800px;
-  left: 0;
   position: absolute;
-  width: 333px;
+  width: 321px;
   height: 672px;
   object-fit: cover;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px;
 }
-
+.rotable-homepage .image-1:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
+}
 .rotable-homepage .image-2 {
   top: 870px;
   left: 433px;
   position: absolute;
-  width: 333px;
+  width: 320px;
   height: 672px;
   object-fit: cover;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px;
+}
+.rotable-homepage .image-2:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
+}
+
+
+/* Base styles for .text-wrapper-2 */
+/* Base styles for .text-wrapper-2 */
+.rotable-homepage .text-wrapper-2,
+.rotable-homepage .text-wrapper-3 {
+  position: absolute;
+  font-family: "Open Sauce One-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  opacity: 1; /* Start with opacity set to 0 */
+  transition: opacity 0.5s ease 4s, color 0.5s ease; /* Add transitions for opacity and color changes with a 4-second delay */
 }
 
 .rotable-homepage .text-wrapper-2 {
-  position: absolute;
   top: 16px;
   left: 714px;
-  font-family: "Open Sauce One-Medium", Helvetica;
-  font-weight: 500;
   color: var(--green-1);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 24px;
-  white-space: nowrap;
-  white-space: nowrap;
-  opacity: 1; /* Start with opacity set to 0 */
-  transition: opacity 0.5s ease, color 0.5s ease; /* Add transitions for opacity and color changes */
 }
+
 .rotable-homepage .text-wrapper-2:hover {
   opacity: 1; /* Set opacity to 1 on hover */
-  animation: fadeIn 0.5s ease;
-  color:var(--white-100); /* Change text color to white on hover */}
+  color: var(--white-100); /* Change text color to white on hover */
+}
 
 /* Base styles for .text-wrapper-3 */
 .rotable-homepage .text-wrapper-3 {
-  position: absolute;
   top: 16px;
   left: 526px;
-  font-family: "Open Sauce One-Medium", Helvetica;
-  font-weight: 500;
   color: var(--white-100);
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 24px;
-  white-space: nowrap;
-  opacity: 1; /* Start with opacity set to 0 */
-  transition: opacity 0.5s ease, color 0.5s ease; /* Add transitions for opacity and color changes */
 }
 
 /* Apply the fade-in animation to the text-wrapper-3 element */
 .rotable-homepage .text-wrapper-3:hover {
   opacity: 1; /* Set opacity to 1 on hover */
-  animation: fadeIn 0.5s ease;
-  color:var(--green-1); /* Change text color to white on hover */
+  color: var(--green-1); /* Change text color to green on hover */
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .text-wrapper-2,
+  .rotable-homepage .text-wrapper-3 {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 20px; /* Adjust line height for smaller screens */
+  }
+}
+
 
 
 
@@ -235,7 +272,31 @@
   font-size: 64px;
   letter-spacing: 0;
   line-height: normal;
+  transform: translateX(-100%); /* Initial position outside the viewport */
+  opacity: 0; /* Initially set opacity to 0 */
+  animation: fadeIn 2s ease-in-out forwards 3s; /* Slower animation with a delay */
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%); /* Start from outside the viewport on the left */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* Move to the original position */
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .text-wrapper-4 {
+    width: 100%; /* Adjust width for smaller screens */
+    font-size: 36px; /* Adjust font size for smaller screens */
+    top: 20px; /* Adjust top position for smaller screens */
+  }
+}
+
 
 .rotable-homepage .frame-7 {
   display: inline-flex;
@@ -275,6 +336,7 @@
   font-size: 64px;
   letter-spacing: 0;
   line-height: normal;
+  opacity: 1; /* Initially set opacity to 1 */
 }
 
 .rotable-homepage .frame-8 {
@@ -850,14 +912,30 @@
   transform: rotate(-90deg);
 }
 
+.vector {
+  width: 100px; /* Set the width as needed */
+  height: 100px; /* Set the height as needed */
+  transition: fill 0.5s ease-in-out; /* Add transition for a smooth color change */
+}
+
 .rotable-homepage .image-3 {
-  top: 938px;
-  left: 0;
+  top: 865px;
+  left: -430px;
   position: absolute;
-  width: 333px;
+  width: 320px;
   height: 672px;
   object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px;
 }
+
+.rotable-homepage .image-3:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
+}
+
 
 .rotable-homepage .element-rotable {
   position: absolute;
@@ -884,26 +962,74 @@
   position: absolute;
   width: 588px;
   height: 527px;
-  top: 86px;
-  left: 216px;
+  top: -30px;
+  left: 100px;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition properties */
+  box-shadow: 0 0 10px rgba(98, 241, 98, 0); /* Initially set box-shadow to transparent */
+}
+
+.rotable-homepage .rotable-logo-2:hover {
+  opacity: 1; /* Set opacity to 1 on hover */
+  transform: rotateY(180deg); /* Rotate the element on hover */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .rotable-logo-2 {
+    width: 100%; /* Adjust width for smaller screens */
+    height: auto; /* Allow height to adjust automatically */
+    top: 20px; /* Adjust top position for smaller screens */
+    left: 50%; /* Move the left edge to the center */
+    transform: translateX(-50%); /* Center the element using transform */
+  }
 }
 
 .rotable-homepage .layer {
   position: absolute;
   width: 1070px;
   height: 645px;
-  top: 0;
-  left: 0;
+  top: -190px;
+  left: -120px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out,transform 0.5s ease-in-out,box-shadow 0.5s; /* Transition properties for smooth opacity change */
 }
+.rotable-homepage .layer:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.3); /* Adjust the scale factor for the hover effect */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .layer {
+    width: 100%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
 
 .rotable-homepage .buttons {
   display: flex;
   width: 350px;
   align-items: flex-start;
   position: absolute;
-  top: 3592px;
-  left: 554px;
+  top: 3400px; /* Position from the top center */
+  left: 50%; /* Position from the left center */
+  transform: translate(-50%, -50%); /* Center the element using transform */
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .buttons {
+    width: 100%; /* Adjust width for smaller screens */
+    align-items: center; /* Center items on smaller screens */
+    left: 50%;
+  }
+}
+
 
 .rotable-homepage .main-button {
   display: flex;
@@ -954,8 +1080,10 @@
   width: 350px;
   align-items: flex-start;
   position: absolute;
-  top: 3678px;
-  left: 554px;
+  align-items: center;
+  top: 3500px;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the element using transform */
 }
 
 .rotable-homepage .button-wrapper {
