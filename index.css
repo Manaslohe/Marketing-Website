@@ -134,7 +134,7 @@ background-color: #f0f0f0; /* Optional: Set background color */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  min-width: 131px;
+  min-width: 200px;
   transition: background-color 0.3s ease, transform 0.3s ease; /* Add smooth transition for background color and transform */
 }
 @media (min-width: 769px) {
