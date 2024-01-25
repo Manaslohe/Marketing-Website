@@ -1381,3 +1381,10 @@ body {
       height: 300px; /* Adjust the height as needed */
       /* You can adjust the height and other styles based on your design */
   }
+  
+  @media (min-width: 769px) {
+      .overlap-container {
+          display: none; /* Hide the container in desktop view */
+      }
+  }
+  
