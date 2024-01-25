@@ -1,6 +1,4 @@
 body {
-    display:grid;
-    grid-template-rows: 1fr 10rem auto;
     grid-template-areas:"main" "." "footer";
     overflow-x:hidden;
     background:#32CD32;
@@ -9,7 +7,6 @@ body {
     .footer {
         z-index: 1;
         --footer-background:#32CD32;
-        top: 3910px;
         display:grid;
         position: relative;
         grid-area: footer;

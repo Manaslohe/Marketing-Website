@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Rotable</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta property="og:title" content="ROTABLE&#174;" />
     <meta property="og:type" content="website" />
@@ -10,16 +12,28 @@
     <meta property="og:description" content="Get any table in the most crowded restaurants." />
     <link rel="icon" type="image/png" sizes="32x32" href="../img/Vector.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/Vector.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Slab:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abyssinica SIL:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="./styleguide.css" />
     <link rel="stylesheet" href="./preloader.css" />
     <script src="./rotable.js"></script>
     <script src="./scroll.js"></script>
@@ -47,205 +61,398 @@
         <div class='dot'></div>
       </div>
     </div>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-          <img src="./img/Vector.png" width="30" height="30" class="d-inline-block align-top" alt="Your Logo">
-          Rotable
-      </a>
+
+    <div class="rotable-homepage">
+      <section class="frame-wrapper">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="width: 100%;">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img class="rotable-logo-icon" loading="eager" alt="" src="./img/Vector.png" width="30" height="30">
+                      <b class="rotable" style="color: white;">Rotable</b>
+                  </a>
   
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
   
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Add Your Restaurant</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
-   -->
-    
-     <div class="rotable-homepage">
-      <div class="div">
-        <div class="overlap">
-          <div class="frame">
-            <div class="ellipse"></div>
-            <div class="text-wrapper">Feature Name</div>
-            <p class="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            </p>
-          </div>
-          <div class="frame-2">
-            <div class="ellipse"></div>
-            <div class="text-wrapper">Feature Name</div>
-            <p class="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            </p>
-          </div>
-          <div class="frame-3">
-            <div class="ellipse"></div>
-            <div class="text-wrapper">Feature Name</div>
-            <p class="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            </p>
-          </div>
-          <div class="frame-4">
-            <div class="ellipse"></div>
-            <div class="text-wrapper">Feature Name</div>
-            <p class="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            </p>
-          </div>
-          <div class="frame-5">
-            <div class="ellipse"></div>
-            <div class="text-wrapper">Feature Name</div>
-            <p class="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            </p>
-          </div>
-          <div class="frame-6">
-            <div class="ellipse"></div>
-            <div class="text-wrapper">Feature Name</div>
-            <p class="p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            </p>
-          </div>
-        </div>
-        <div class="overlap-group">
-          <div class="overlap-2">
-            <div class="overlap-3">
-              <div class="rotable-homepage">
-                <img class="image" src="./img/image-125.png" alt="Image description">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" style="margin-right: 50px; font-family: 'Open Sauce One-Medium', Helvetica; font-weight: 700; font-size: 16px; letter-spacing: 0; line-height: 24px; white-space: nowrap; opacity: 1; transition: opacity 0.5s ease 4s, color 0.5s ease; top: 16px; left: 526px; color: var(--white-100);" onmouseover="this.style.opacity=1; this.style.color='var(--green-1)';" onmouseout="this.style.opacity=1; this.style.color='var(--white-100)';" href="./Contact/download now.html">Add Your Restaurant</a>
+
+                        <a class="nav-item nav-link" style="margin-right: 600px; font-family: 'Open Sauce One-Medium', Helvetica; font-weight: 700; font-size: 16px; letter-spacing: 0; line-height: 24px; white-space: nowrap; opacity: 1; transition: opacity 0.5s ease 4s, color 0.5s ease; top: 16px; left: 714px; color: var(--green-1);" onmouseover="this.style.opacity=1; this.style.color='var(--white-100)';" onmouseout="this.style.opacity=1; this.style.color='var(--green-1)';" href="./Contact/contact.html">Contact Us</a>
+                        
+                      </div>
+                  </div>
               </div>
-            
-              <script>
-                document.addEventListener("DOMContentLoaded", function() {
-                  // Add a small delay before setting opacity to allow the transition to take effect
-                  setTimeout(function() {
-                    document.querySelector('.rotable-homepage .image').style.opacity = '1';
-                  }, 100);
-                });
-              </script>
-              <img class="vector" src="img/vector-5.svg" />
-              <img class="image-1" src="img/image-127.png" />
-              <img class="image-2" src="img/image-128.png" />
-              <img class="image-3" src="img/image-126.png" />
-            </div>
-            <div><a class="text-wrapper-2" href="./Contact/contact.html">Contact Us</a></div>
-              <div class="text-wrapper-3">Add Your Restaurant</div>
-            
-              <div class="frame-8">
-            <a href="#"><img class="download-on-the-app" src="img/download-on-the-app-store-1.svg" alt="Download on the App Store" /> </a>
-            <a href="#"><img class="en-badge-web-generic" src="img/en-badge-web-generic-2.png" alt="Your Alt Text" /></a>
-            </div>
+          </nav>
+      </section>
+      <section class="rotable-homepage-inner">
+        <div class="get-any-table-in-the-most-crow-parent">
+          <h1 class="get-any-table">
+            Get any table in the most crowded restaurants.
+          </h1>
+          <div class="group-parent">
+            <img
+              class="group-icon"
+              loading="eager"
+              alt=""
+              src="./img/group.svg"
+            />
+              <img
+                class="en-badge-web-generic-2"
+                loading="eager"
+                alt=""
+                src="./img/en_badge_web_generic 2.svg"
+              />
+          </div>
+        </div>
+      </section>
+      <section class="frame-parent">
+        <div class="frame-container">
+          <div class="explore-more-explore-more-parent">
+            <img
+              class="explore-more-explore-more"
+              alt=""
+              src="./public/explore-more--explore-more--1@2x.png"
+            />
+
+            <a href="#features" class="arrow-parent">
+              <img class="arrow-icon" alt="" src="./img/arrow-3.svg"/>
+              <div class="back"></div>
+            </a>
+            <script>
+              // Add smooth scroll behavior using JavaScript
+              document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
           
-            <p class="text-wrapper-4">Get any table in the most crowded restaurants.</p>
-          </div>
-          <div class="frame-7">
-            <img class="rotable-logo" src="img/rotable-logo.svg" />
-            <div class="text-wrapper-5">Rotable</div>
-          </div>
-          <div class="rotable-homepage">
-            <div class="text-wrapper-6">
-              Features
-            </div>
-          </div>
-              
-         
-          <div class="group">
-            <div class="overlap-4">
-              <div class="EXPLORE-MORE-EXPLORE">
-                <div class="image11"><img class="" src="./img/EXPLORE MORE • EXPLORE MORE •.png" /></div>
-
-                <div class="arrow" id="scroll-down-arrow">
-                  <img class="arrow-2" src="img/arrow-3.svg" alt="Scroll Down Arrow" />
-                </div>
-                
-                <script>
-                  document.addEventListener("DOMContentLoaded", function () {
-                    document.getElementById("scroll-down-arrow").addEventListener("click", function () {
-                      window.scrollBy({
-                        top: window.innerHeight,
-                        behavior: "smooth"
-                      });
-                    });
+                  document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
                   });
-                </script>
-                
-              
-              
+                });
+              });
+            </script>
+          </div>
+        </div>
+        <div class="image-125-parent">
+          <style>
+            @media (max-width: 767px) {
+              .image-125-icon {
+                display: none; /* Hide the image on mobile */
+              }
+            }
+          </style>
+          
+          <!-- Your HTML code with the image -->
+          <img class="image-125-icon d-none d-lg-block" loading="eager" alt="" src="./img/image-125.png" />
+          
+          
+          <!-- JavaScript to add the 'show' class after the page loads on mobile devices -->
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              // Check if the window width is less than or equal to 767px (Bootstrap's mobile breakpoint)
+              if (window.innerWidth <= 767) {
+                // Add the 'show' class to the image
+                document.querySelector('.image-125-icon').classList.add('show');
+              }
+            });
+          </script>
+          
+
+          <style>
+            @media (max-width: 767px) {
+              .frame-child {
+                display: none; /* Hide the image on mobile */
+              }
+            }
+          </style>
+          
+          <!-- Your HTML code with the image -->
+          <img class="frame-child d-none d-lg-block" alt="" src="./public/vector-5@2x.png" />
+          
+
+          <img class="image-127-icon" alt="" src="./public/image-127@2x.png" />
+        </div>
+      </section>
+      
+    <section class="rotable-homepage-child">
+      <div class="features-parent">
+        <h1 class="features" id="features">Features</h1>
+          <div class="frame-div">
+            <div class="image-126-parent">
+              <img
+                class="image-126-icon"
+                loading="eager"
+                alt=""
+                src="./public/image-126@2x.png"
+              />
+
+              <img
+                class="image-128-icon"
+                loading="eager"
+                alt=""
+                src="./public/image-128@2x.png"
+              />
             </div>
           </div>
-
         </div>
+     
+        
+      </section>
+      <style>
+        /* Styles for screens with width 768px or more */
+        @media (min-width: 768px) {
+          #carouselExampleCaptions {
+            display: none; /* Hide the carousel on desktop view */
+          }
+        }
       
-        <div class="overlap-11">
-          <img class="rotable-logo-2" src="img/rotable-logo-2.svg" /> <img class="layer" src="img/layer-1.svg" />
-         
-          <script>
-            document.addEventListener("DOMContentLoaded", function() {
-              const layer = document.querySelector('.rotable-homepage .layer');
-        
-              const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                  if (entry.isIntersecting) {
-                    layer.style.opacity = 1;
-                    observer.unobserve(layer);
-                  }
-                });
-              }, { threshold: 0.5 }); // Adjust the threshold as needed
-        
-              observer.observe(layer);
-            });
-          </script>
-           <script>
-            document.addEventListener("DOMContentLoaded", function() {
-              const rotableLogo2 = document.querySelector('.rotable-homepage .rotable-logo-2');
-        
-              const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                  if (entry.isIntersecting) {
-                    gsap.to(rotableLogo2, {
-                      duration: 1.25,
-                      opacity: 1,
-                      ease: "back",
-                      overwrite: "auto"
-                    });
-                    observer.unobserve(rotableLogo2);
-                  }
-                });
-              }, { threshold: 0.5 }); // Adjust the threshold as needed
-        
-              observer.observe(rotableLogo2);
-            });
-          </script>
-        </div><div>
-        <div class="buttons">
-          <div class="main-button"><button class="button">Get Rotable Now</button></div>
-          <div class="arrow-wrapper"><img class="arrow-3" src="img/arrow-2.svg" /></div>
+        /* Styles for screens with width less than 768px */
+        @media (max-width: 767px) {
+          #carouselExampleCaptions {
+            width: 100%; /* Set the width to 100% for smaller screens */
+          }
+        }
+      </style>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./public/image-127@2x.png" class="d-block mx-auto" style="max-width: 70%; max-height: 50%;margin-bottom: 100px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./public/image-126@2x.png" class="d-block mx-auto" style="max-width: 70%; max-height: 50%;margin-bottom: 100px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./public/image-128@2x.png" class="d-block mx-auto" style="max-width: 70%; max-height: 50%;margin-bottom: 100px;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      <section class="rectangle-parent">
+        <div class="frame-item"></div>
+        <div class="ellipse-parent">
+          <div class="frame-inner"></div>
+          <h3 class="feature-name">Feature Name</h3>
+          <div class="lorem-ipsum-dolor">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          </div>
         </div>
-        <div class="buttons-2">
-          <div class="button-wrapper"><button class="button-2">Add Your Restaurant</button></div>
-          <div class="frame-wrapper"><img class="frame-9" src="img/frame.svg" /></div>
+        <div class="ellipse-group">
+          <div class="ellipse-div"></div>
+          <h3 class="feature-name1">Feature Name</h3>
+          <div class="lorem-ipsum-dolor1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          </div>
+        </div>
+        <div class="ellipse-container">
+          <div class="frame-child1"></div>
+          <h3 class="feature-name2">Feature Name</h3>
+          <div class="lorem-ipsum-dolor2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          </div>
+        </div>
+        <div class="ellipse-parent1">
+          <div class="frame-child2"></div>
+          <h3 class="feature-name3">Feature Name</h3>
+          <div class="lorem-ipsum-dolor3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          </div>
+        </div>
+        <div class="ellipse-parent2">
+          <div class="frame-child3"></div>
+          <h3 class="feature-name4">Feature Name</h3>
+          <div class="lorem-ipsum-dolor4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          </div>
+        </div>
+        <div class="ellipse-parent2">
+          <div class="frame-child4"></div>
+          <h3 class="feature-name5">Feature Name</h3>
+          <div class="lorem-ipsum-dolor5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          </div>
+        </div>
+      </section>
+      <section class="rotate">
+        <div class="container">
+          <div class="overlap-11">
+            <img class="rotable-logo-2" src="img/rotable-logo-2.svg" />
+            <img class="layer" src="img/layer-1.svg" />
+      
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                const layer = document.querySelector('.rotable-homepage .layer');
+      
+                const observer = new IntersectionObserver(entries => {
+                  entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                      layer.style.opacity = 1;
+                      observer.unobserve(layer);
+                    }
+                  });
+                }, { threshold: 0.5 }); // Adjust the threshold as needed
+      
+                observer.observe(layer);
+              });
+            </script>
+      
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                const rotableLogo2 = document.querySelector('.rotable-homepage .rotable-logo-2');
+      
+                const observer = new IntersectionObserver(entries => {
+                  entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                      gsap.to(rotableLogo2, {
+                        duration: 1.25,
+                        opacity: 1,
+                        ease: "back",
+                        overwrite: "auto"
+                      });
+                      observer.unobserve(rotableLogo2);
+                    }
+                  });
+                }, { threshold: 0.5 }); // Adjust the threshold as needed
+      
+                observer.observe(rotableLogo2);
+              });
+            </script>
+          </div>
+        </div>
+      </section>
+      
+        <section>
+          <div class="copyright-text">
+            <div class="parent-group">
+              <div class="buttons">
+                <button class="blob-btn" onclick="window.location.href='./Contact/download now.html';">
+                  Get Rotable Now
+                  <span class="blob-btn__inner">
+                    <span class="blob-btn__blobs">
+                      <span class="blob-btn__blob"></span>
+                      <span class="blob-btn__blob"></span>
+                      <span class="blob-btn__blob"></span>
+                      <span class="blob-btn__blob"></span>
+                    </span>
+                  </span>
+                </button>
+                
+              </div>
+              <div class="buttons">
+                <button class="blob-btn" style="white-space: nowrap;padding-inline: 70px;"onclick="window.location.href='./Contact/contact.html';">
+                  Add Your Restaurant              
+    <span class="blob-btn__inner">
+      <span class="blob-btn__blobs">
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+      </span>
+    </span>
+  </button>
+  <br/>
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+    </filter>
+  </defs>
+</svg>
+            </div>
+          </div>
+        </section>
+    </div>
+
+    <script>
+      
+      var textFramesContainer = document.getElementById("textFramesContainer");
+      if (textFramesContainer) {
+        textFramesContainer.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='textFramesContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "center" });
+          }
+        });
+      }
+      </script>
+       <div class="main">
+        <div class="footer">
+          <div class="bubbles">
+            <!-- Loop for creating bubbles -->
+            <!-- Note: In Pug, the loop starts with a hyphen (-) -->
+            <!-- In HTML, we use a standard for loop within a script tag -->
+            <script>
+              for (var i = 0; i < 128; i++) {
+                document.write(`
+                  <div class="bubble" style="--size:${2+Math.random()*4}rem; --distance:${6+Math.random()*4}rem; --position:${-5+Math.random()*110}%; --time:${2+Math.random()*2}s; --delay:${-1*(2+Math.random()*2)}s;"></div>
+                `);
+              }
+            </script>
+          </div>
+          <div class="content">
+            <div>
+              <div>
+                <b>©2023 Rotable Technologies Pvt. Ltd.&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved.</b>
+              </div>
+            </div>
+            <div>
+              <a href="https://www.instagram.com/the_tipsy_turk/?hl=en" target="_blank" class="image" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg')"></a>
+              <p>@Tipsy Turk</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div> 
-     <p class="element-rotable">©2023 Rotable Technologies Pvt. Ltd.&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved.</p>
-     <div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <svg style="position:fixed; top:100vh">
+        <defs>
+          <filter id="blob">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"></feColorMatrix>
+            <!--feComposite in="SourceGraphic" in2="blob" operator="atop"--> <!--Commented out as it's not necessary for the blob effect-->
+          </filter>
+        </defs>
+      </svg>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
   </body>
 </html>

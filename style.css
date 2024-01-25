@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .rotable-homepage {
   background-color: #000000;
   display: flex;
@@ -20,6 +23,11 @@
   top: 1770px;
   left: 0;
   background-color: #111111;
+}
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 .rotable-homepage .frame {
