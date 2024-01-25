@@ -1343,3 +1343,41 @@ body {
 
   /* Add specific styles for smaller screens if necessary */
 }
+.layer-mobile {
+            display: none; /* hide the image by default */
+        }
+
+        @media (max-width: 768px) {
+          .layer-mobile {
+            display: block; /* show the image when the screen width is 768px or less */
+    max-width: 95%; /* set the maximum width of the image within the media query */
+    padding-top: 50px;
+    margin: 0 auto; /* center-align the image horizontally */
+
+          }
+      }
+      .layer-mobile2 {
+        display: none; /* hide the image by default */
+    }
+
+    @media (max-width: 768px) {
+      .layer-mobile2 {
+    
+          display: block; /* show the image when the screen width is 768px or less */
+          max-width: 60%; /* set the maximum width of the image within the media query */
+          margin:auto;
+          margin-top: -200px;
+          
+      }
+  }
+      @media (max-width: 768px) {
+        .rotate {
+            display: none; /* hide the section in mobile view */
+        }
+    }
+    .overlap-container {
+      position: relative;
+      width: 100%; /* Adjust the width as needed */
+      height: 300px; /* Adjust the height as needed */
+      /* You can adjust the height and other styles based on your design */
+  }
