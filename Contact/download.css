@@ -6,7 +6,7 @@
 .responsive-image {
   margin-top: 60px;
   max-width: 60%;
-  height: auto;
+  height: 450px;
 }
 
 /* Media query for screens with a maximum width of 768 pixels (adjust as needed) */
