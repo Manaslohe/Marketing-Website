@@ -1,0 +1,2252 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" lang="en" dir="ltr">
+
+<head>
+    <link rel="preconnect" href="https://d3njjcbhbojbot.cloudfront.net" crossorigin>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7">
+    <meta charset="utf-8">
+    <meta property="og:site_name" content="Coursera">
+    <meta property="fb:admins" content="727836538,4807654">
+    <meta property="fb:app_id" content="823425307723964">
+    <meta name="twitter:site" content="Coursera">
+    <meta name="twitter:app:name:iphone" content="Coursera">
+    <meta name="twitter:app:name:ipad" content="Coursera">
+    <meta name="twitter:app:name:googleplay" content="Coursera">
+    <meta name="twitter:app:id:iphone" content="id736535961">
+    <meta name="twitter:app:id:ipad" content="id736535961">
+    <meta name="twitter:app:id:googleplay" content="org.coursera.android">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/Vector.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/Vector.png">
+    <link rel="icon" type="image/png" href="./img/Vector.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="./img/Vector.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./img/Vector.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./img/Vector.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./img/Vector.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="./img/Frame 1.png">
+    <meta name="theme-color" content="#0056D2">
+    <meta property="qc:admins" content="366737676376375235216727">
+    <!-- Verification for Yandex-->
+    <meta property="yandex-verification" content="4970cfdb825622c7">
+
+    <style>
+        @font-face {
+            font-family: 'coursera-iconfont';
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/bundles/styleguide/icons/fonts/coursera.v26.eot");
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/bundles/styleguide/icons/fonts/coursera.v26.eot?#iefix") format('embedded-opentype'), url("https://d3njjcbhbojbot.cloudfront.net/web/bundles/styleguide/icons/fonts/coursera.v26.woff") format('woff'), url("https://d3njjcbhbojbot.cloudfront.net/web/bundles/styleguide/icons/fonts/coursera.v26.ttf") format('truetype'), url("https://d3njjcbhbojbot.cloudfront.net/web/bundles/styleguide/icons/fonts/coursera.v26.svg") format('svg');
+        }
+
+        @font-face {
+            font-family: 'OpenSans-Light';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Light.eot");
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Light.eot?#iefix") format('embedded-opentype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-300.woff2") format('woff2'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-300.woff") format('woff'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Light.ttf") format('truetype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Light.svg#OpenSans-Light") format('svg');
+        }
+
+        @font-face {
+            font-family: 'OpenSans';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Regular.eot");
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Regular.eot?#iefix") format('embedded-opentype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-regular.woff2") format('woff2'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-regular.woff") format('woff'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Regular.ttf") format('truetype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Regular.svg#OpenSans-Regular") format('svg');
+        }
+
+        @font-face {
+            font-family: 'OpenSans-Semibold';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Semibold.eot");
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Semibold.eot?#iefix") format('embedded-opentype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-600.woff2") format('woff2'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-600.woff") format('woff'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Semibold.ttf") format('truetype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Semibold.svg#OpenSans-Semibold") format('svg');
+        }
+
+        @font-face {
+            font-family: 'OpenSans-Bold';
+            font-weight: 700;
+            font-display: swap;
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.eot');
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-700.woff2') format('woff2'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-700.woff') format('woff'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.ttf') format('truetype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+        }
+
+        @font-face {
+            font-family: 'OpenSans';
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.eot");
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.eot?#iefix") format('embedded-opentype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-700.woff2") format('woff2'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans-v17-latin-latinext-cyrillic/opensans-700.woff") format('woff'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.ttf") format('truetype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/opensans/OpenSans-Bold.svg#OpenSans-Bold") format('svg');
+        }
+
+        @font-face {
+            font-family: 'Merriweather';
+            font-display: swap;
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Regular.eot");
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Regular.eot?#iefix") format('embedded-opentype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Regular.woff2") format('woff2'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Regular.woff") format('woff'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Regular.ttf") format('truetype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Regular.svg#Merriweather-Regular") format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Merriweather-Light';
+            font-display: swap;
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Light.eot");
+            src: url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Light.eot?#iefix") format('embedded-opentype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Light.woff2") format('woff2'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Light.woff") format('woff'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Light.ttf") format('truetype'), url("https://d3njjcbhbojbot.cloudfront.net/web/type/merriweather/Merriweather-Regular.svg#Merriweather-Light") format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.eot');
+            /* IE9 Compat Modes */
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.eot?#iefix') format('embedded-opentype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.woff2') format('woff2'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.woff') format('woff'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.ttf') format('truetype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-300.svg#SourceSansPro') format('svg');
+        }
+
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.eot');
+            /* IE9 Compat Modes */
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.eot?#iefix') format('embedded-opentype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.woff2') format('woff2'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.woff') format('woff'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.ttf') format('truetype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-regular.svg#SourceSansPro') format('svg');
+        }
+
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.eot');
+            /* IE9 Compat Modes */
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.eot?#iefix') format('embedded-opentype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.woff2') format('woff2'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.woff') format('woff'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.ttf') format('truetype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-600.svg#SourceSansPro') format('svg');
+        }
+
+        @font-face {
+            font-family: 'Source Sans Pro';
+            font-style: normal;
+            font-weight: bold;
+            font-display: swap;
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.eot');
+            src: url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.eot?#iefix') format('embedded-opentype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.woff2') format('woff2'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.woff') format('woff'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.ttf') format('truetype'), url('https://d3njjcbhbojbot.cloudfront.net/web/type/source-sans-pro-v14-latin/source-sans-pro-v14-latin-700.svg#SourceSansPro') format('svg');
+        }
+    </style>
+
+    <script>
+        window.publicPathOverride = "https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/br/about/" !== "" ?
+            "https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/br/about/" : null;
+    </script>
+    <link href="https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/br/about/allStyles.b010f5f77980ef311726.css" data-href="https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/br/about/allStyles.b010f5f77980ef311726.css" rel="stylesheet">
+    <title data-react-helmet="true">Privacy Policy | Rotable</title>
+    <meta data-react-helmet="true" property="og:url" content="https://www.rotable.in/" />
+    <meta data-react-helmet="true" property="og:locale" content="en_US" />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta data-react-helmet="true" name="description" content=""
+    />
+    <meta data-react-helmet="true" name="image" content="./Contact/images/insta-2.jpg" />
+    <meta data-react-helmet="true" property="og:title" content="Privacy Policy | Rotable Ventures" />
+    <meta data-react-helmet="true" property="og:description" content=""
+    />
+    <meta data-react-helmet="true" property="og:image" content="./Contact/images/insta-2.jpg" />
+    <meta data-react-helmet="true" property="twitter:title" content="Privacy Policy | Rotable Ventures" />
+    <meta data-react-helmet="true" property="twitter:description" content="" />
+    <meta data-react-helmet="true" property="twitter:image:src" content="./Contact/images/insta-2.jpg" />
+    <meta data-react-helmet="true" property="twitter:image" content="./Contact/images/insta-2.jpg" />
+    <meta data-react-helmet="true" property="twitter:card" content="summary" />
+
+    <style data-coursera-design-system>
+        .cds-1 {
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cds-2 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        @media (min-width:600px) {
+            .cds-3 {
+                max-width: 600px;
+            }
+        }
+
+        @media (min-width:1024px) {
+            .cds-3 {
+                max-width: 1024px;
+            }
+        }
+
+        @media (min-width:1440px) {
+            .cds-3 {
+                max-width: 1440px;
+            }
+        }
+
+        @media (min-width:1920px) {
+            .cds-3 {
+                max-width: 1920px;
+            }
+        }
+
+        @media (min-width:0px) {
+            .cds-4 {
+                max-width: 444px;
+            }
+        }
+
+        @media (min-width:600px) {
+            .cds-5 {
+                max-width: 600px;
+            }
+        }
+
+        @media (min-width:1024px) {
+            .cds-6 {
+                max-width: 1024px;
+            }
+        }
+
+        @media (min-width:1440px) {
+            .cds-7 {
+                max-width: 1440px;
+            }
+        }
+
+        @media (min-width:1920px) {
+            .cds-8 {
+                max-width: 1920px;
+            }
+        }
+
+        .cds-10 {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+        }
+
+        .cds-11 {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .cds-12 {
+            min-width: 0;
+        }
+
+        .cds-13 {
+            flex-direction: column;
+        }
+
+        .cds-14 {
+            flex-direction: column-reverse;
+        }
+
+        .cds-15 {
+            flex-direction: row-reverse;
+        }
+
+        .cds-16 {
+            flex-wrap: nowrap;
+        }
+
+        .cds-17 {
+            flex-wrap: wrap-reverse;
+        }
+
+        .cds-18 {
+            align-items: center;
+        }
+
+        .cds-19 {
+            align-items: flex-start;
+        }
+
+        .cds-20 {
+            align-items: flex-end;
+        }
+
+        .cds-21 {
+            align-items: baseline;
+        }
+
+        .cds-22 {
+            align-content: center;
+        }
+
+        .cds-23 {
+            align-content: flex-start;
+        }
+
+        .cds-24 {
+            align-content: flex-end;
+        }
+
+        .cds-25 {
+            align-content: space-between;
+        }
+
+        .cds-26 {
+            align-content: space-around;
+        }
+
+        .cds-27 {
+            justify-content: center;
+        }
+
+        .cds-28 {
+            justify-content: flex-end;
+        }
+
+        .cds-29 {
+            justify-content: space-between;
+        }
+
+        .cds-30 {
+            justify-content: space-around;
+        }
+
+        .cds-31 {
+            justify-content: space-evenly;
+        }
+
+        .cds-32 {
+            width: calc(100% + 0px);
+            margin: -0px;
+        }
+
+        .cds-32>.cds-11 {
+            padding: 0px;
+        }
+
+        .cds-33 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-33>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-34 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-34>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-35 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-35>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-36 {
+            width: calc(100% + NaNvar(--cds-spacing-50));
+            margin: -NaNvar(--cds-spacing-50);
+        }
+
+        .cds-36>.cds-11 {
+            padding: NaNvar(--cds-spacing-50);
+        }
+
+        .cds-37 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-37>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-38 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-38>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-39 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-39>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-40 {
+            width: calc(100% + NaNvar(--cds-spacing-100));
+            margin: -NaNvar(--cds-spacing-100);
+        }
+
+        .cds-40>.cds-11 {
+            padding: NaNvar(--cds-spacing-100);
+        }
+
+        .cds-41 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-41>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-42 {
+            width: calc(100% + NaNundefined);
+            margin: -NaNundefined;
+        }
+
+        .cds-42>.cds-11 {
+            padding: NaNundefined;
+        }
+
+        .cds-43 {
+            flex-grow: 0;
+            max-width: none;
+            flex-basis: auto;
+        }
+
+        .cds-44 {
+            flex-grow: 1;
+            max-width: 100%;
+            flex-basis: 0;
+        }
+
+        .cds-45 {
+            flex-grow: 0;
+            max-width: 8.333333%;
+            flex-basis: 8.333333%;
+        }
+
+        .cds-46 {
+            flex-grow: 0;
+            max-width: 16.666667%;
+            flex-basis: 16.666667%;
+        }
+
+        .cds-47 {
+            flex-grow: 0;
+            max-width: 25%;
+            flex-basis: 25%;
+        }
+
+        .cds-48 {
+            flex-grow: 0;
+            max-width: 33.333333%;
+            flex-basis: 33.333333%;
+        }
+
+        .cds-49 {
+            flex-grow: 0;
+            max-width: 41.666667%;
+            flex-basis: 41.666667%;
+        }
+
+        .cds-50 {
+            flex-grow: 0;
+            max-width: 50%;
+            flex-basis: 50%;
+        }
+
+        .cds-51 {
+            flex-grow: 0;
+            max-width: 58.333333%;
+            flex-basis: 58.333333%;
+        }
+
+        .cds-52 {
+            flex-grow: 0;
+            max-width: 66.666667%;
+            flex-basis: 66.666667%;
+        }
+
+        .cds-53 {
+            flex-grow: 0;
+            max-width: 75%;
+            flex-basis: 75%;
+        }
+
+        .cds-54 {
+            flex-grow: 0;
+            max-width: 83.333333%;
+            flex-basis: 83.333333%;
+        }
+
+        .cds-55 {
+            flex-grow: 0;
+            max-width: 91.666667%;
+            flex-basis: 91.666667%;
+        }
+
+        .cds-56 {
+            flex-grow: 0;
+            max-width: 100%;
+            flex-basis: 100%;
+        }
+
+        @media (min-width:600px) {
+            .cds-57 {
+                flex-grow: 0;
+                max-width: none;
+                flex-basis: auto;
+            }
+            .cds-58 {
+                flex-grow: 1;
+                max-width: 100%;
+                flex-basis: 0;
+            }
+            .cds-59 {
+                flex-grow: 0;
+                max-width: 8.333333%;
+                flex-basis: 8.333333%;
+            }
+            .cds-60 {
+                flex-grow: 0;
+                max-width: 16.666667%;
+                flex-basis: 16.666667%;
+            }
+            .cds-61 {
+                flex-grow: 0;
+                max-width: 25%;
+                flex-basis: 25%;
+            }
+            .cds-62 {
+                flex-grow: 0;
+                max-width: 33.333333%;
+                flex-basis: 33.333333%;
+            }
+            .cds-63 {
+                flex-grow: 0;
+                max-width: 41.666667%;
+                flex-basis: 41.666667%;
+            }
+            .cds-64 {
+                flex-grow: 0;
+                max-width: 50%;
+                flex-basis: 50%;
+            }
+            .cds-65 {
+                flex-grow: 0;
+                max-width: 58.333333%;
+                flex-basis: 58.333333%;
+            }
+            .cds-66 {
+                flex-grow: 0;
+                max-width: 66.666667%;
+                flex-basis: 66.666667%;
+            }
+            .cds-67 {
+                flex-grow: 0;
+                max-width: 75%;
+                flex-basis: 75%;
+            }
+            .cds-68 {
+                flex-grow: 0;
+                max-width: 83.333333%;
+                flex-basis: 83.333333%;
+            }
+            .cds-69 {
+                flex-grow: 0;
+                max-width: 91.666667%;
+                flex-basis: 91.666667%;
+            }
+            .cds-70 {
+                flex-grow: 0;
+                max-width: 100%;
+                flex-basis: 100%;
+            }
+        }
+
+        @media (min-width:1024px) {
+            .cds-71 {
+                flex-grow: 0;
+                max-width: none;
+                flex-basis: auto;
+            }
+            .cds-72 {
+                flex-grow: 1;
+                max-width: 100%;
+                flex-basis: 0;
+            }
+            .cds-73 {
+                flex-grow: 0;
+                max-width: 8.333333%;
+                flex-basis: 8.333333%;
+            }
+            .cds-74 {
+                flex-grow: 0;
+                max-width: 16.666667%;
+                flex-basis: 16.666667%;
+            }
+            .cds-75 {
+                flex-grow: 0;
+                max-width: 25%;
+                flex-basis: 25%;
+            }
+            .cds-76 {
+                flex-grow: 0;
+                max-width: 33.333333%;
+                flex-basis: 33.333333%;
+            }
+            .cds-77 {
+                flex-grow: 0;
+                max-width: 41.666667%;
+                flex-basis: 41.666667%;
+            }
+            .cds-78 {
+                flex-grow: 0;
+                max-width: 50%;
+                flex-basis: 50%;
+            }
+            .cds-79 {
+                flex-grow: 0;
+                max-width: 58.333333%;
+                flex-basis: 58.333333%;
+            }
+            .cds-80 {
+                flex-grow: 0;
+                max-width: 66.666667%;
+                flex-basis: 66.666667%;
+            }
+            .cds-81 {
+                flex-grow: 0;
+                max-width: 75%;
+                flex-basis: 75%;
+            }
+            .cds-82 {
+                flex-grow: 0;
+                max-width: 83.333333%;
+                flex-basis: 83.333333%;
+            }
+            .cds-83 {
+                flex-grow: 0;
+                max-width: 91.666667%;
+                flex-basis: 91.666667%;
+            }
+            .cds-84 {
+                flex-grow: 0;
+                max-width: 100%;
+                flex-basis: 100%;
+            }
+        }
+
+        @media (min-width:1440px) {
+            .cds-85 {
+                flex-grow: 0;
+                max-width: none;
+                flex-basis: auto;
+            }
+            .cds-86 {
+                flex-grow: 1;
+                max-width: 100%;
+                flex-basis: 0;
+            }
+            .cds-87 {
+                flex-grow: 0;
+                max-width: 8.333333%;
+                flex-basis: 8.333333%;
+            }
+            .cds-88 {
+                flex-grow: 0;
+                max-width: 16.666667%;
+                flex-basis: 16.666667%;
+            }
+            .cds-89 {
+                flex-grow: 0;
+                max-width: 25%;
+                flex-basis: 25%;
+            }
+            .cds-90 {
+                flex-grow: 0;
+                max-width: 33.333333%;
+                flex-basis: 33.333333%;
+            }
+            .cds-91 {
+                flex-grow: 0;
+                max-width: 41.666667%;
+                flex-basis: 41.666667%;
+            }
+            .cds-92 {
+                flex-grow: 0;
+                max-width: 50%;
+                flex-basis: 50%;
+            }
+            .cds-93 {
+                flex-grow: 0;
+                max-width: 58.333333%;
+                flex-basis: 58.333333%;
+            }
+            .cds-94 {
+                flex-grow: 0;
+                max-width: 66.666667%;
+                flex-basis: 66.666667%;
+            }
+            .cds-95 {
+                flex-grow: 0;
+                max-width: 75%;
+                flex-basis: 75%;
+            }
+            .cds-96 {
+                flex-grow: 0;
+                max-width: 83.333333%;
+                flex-basis: 83.333333%;
+            }
+            .cds-97 {
+                flex-grow: 0;
+                max-width: 91.666667%;
+                flex-basis: 91.666667%;
+            }
+            .cds-98 {
+                flex-grow: 0;
+                max-width: 100%;
+                flex-basis: 100%;
+            }
+        }
+
+        @media (min-width:1920px) {
+            .cds-99 {
+                flex-grow: 0;
+                max-width: none;
+                flex-basis: auto;
+            }
+            .cds-100 {
+                flex-grow: 1;
+                max-width: 100%;
+                flex-basis: 0;
+            }
+            .cds-101 {
+                flex-grow: 0;
+                max-width: 8.333333%;
+                flex-basis: 8.333333%;
+            }
+            .cds-102 {
+                flex-grow: 0;
+                max-width: 16.666667%;
+                flex-basis: 16.666667%;
+            }
+            .cds-103 {
+                flex-grow: 0;
+                max-width: 25%;
+                flex-basis: 25%;
+            }
+            .cds-104 {
+                flex-grow: 0;
+                max-width: 33.333333%;
+                flex-basis: 33.333333%;
+            }
+            .cds-105 {
+                flex-grow: 0;
+                max-width: 41.666667%;
+                flex-basis: 41.666667%;
+            }
+            .cds-106 {
+                flex-grow: 0;
+                max-width: 50%;
+                flex-basis: 50%;
+            }
+            .cds-107 {
+                flex-grow: 0;
+                max-width: 58.333333%;
+                flex-basis: 58.333333%;
+            }
+            .cds-108 {
+                flex-grow: 0;
+                max-width: 66.666667%;
+                flex-basis: 66.666667%;
+            }
+            .cds-109 {
+                flex-grow: 0;
+                max-width: 75%;
+                flex-basis: 75%;
+            }
+            .cds-110 {
+                flex-grow: 0;
+                max-width: 83.333333%;
+                flex-basis: 83.333333%;
+            }
+            .cds-111 {
+                flex-grow: 0;
+                max-width: 91.666667%;
+                flex-basis: 91.666667%;
+            }
+            .cds-112 {
+                flex-grow: 0;
+                max-width: 100%;
+                flex-basis: 100%;
+            }
+        }
+
+        .cds-113 {
+            margin: 0;
+        }
+
+        .cds-114 {
+            font-size: var(--cds-font-size-body2);
+            font-family: var(--cds-font-family-source-sans-pro);
+            font-weight: var(--cds-font-weight-400);
+            line-height: var(--cds-line-height-body2);
+            letter-spacing: 0;
+        }
+
+        .cds-115 {
+            font-size: var(--cds-font-size-body1);
+            font-family: var(--cds-font-family-source-sans-pro);
+            font-weight: var(--cds-font-weight-400);
+            line-height: var(--cds-line-height-body1);
+            letter-spacing: 0;
+        }
+
+        .cds-118 {
+            font-size: var(--cds-font-size-title1-lg);
+            font-family: var(--cds-font-family-source-sans-pro);
+            font-weight: var(--cds-font-weight-400);
+            line-height: var(--cds-line-height-title1-lg);
+            letter-spacing: var(--cds-letter-spacing-125);
+        }
+
+        @media (max-width:599.95px) {
+            .cds-118 {
+                font-size: var(--cds-font-size-title1-xs);
+                line-height: var(--cds-line-height-title1-xs);
+            }
+        }
+
+        .cds-119 {
+            font-size: var(--cds-font-size-title2);
+            font-family: var(--cds-font-family-source-sans-pro);
+            font-weight: var(--cds-font-weight-400);
+            line-height: var(--cds-line-height-title2);
+            letter-spacing: var(--cds-letter-spacing-125);
+        }
+
+        .cds-127 {
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .cds-128 {
+            text-align: left;
+        }
+
+        .cds-129 {
+            text-align: center;
+        }
+
+        .cds-130 {
+            text-align: right;
+        }
+
+        .cds-131 {
+            text-align: justify;
+        }
+
+        .cds-132 {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .cds-133 {
+            margin-bottom: 0.35em;
+        }
+
+        .cds-134 {
+            margin-bottom: 16px;
+        }
+
+        .cds-135 {
+            color: inherit;
+        }
+
+        .cds-136 {
+            color: #3f51b5;
+        }
+
+        .cds-137 {
+            color: #f50057;
+        }
+
+        .cds-138 {
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        .cds-139 {
+            color: rgba(0, 0, 0, 0.54);
+        }
+
+        .cds-140 {
+            color: #f44336;
+        }
+
+        .cds-141 {
+            display: inline;
+        }
+
+        .cds-142 {
+            display: block;
+        }
+    </style>
+    <style data-emotion="css 0 9ap7ba 1p7n6e0 1cxrrkn 1kspkkz guxf6x 6fv407 o1szhl 1h9ktwj 9rioy3 v8pk32 1p459qo t3v7te p2g82x 15utrac 1825nsb 6ecy9b f70avt">
+        :root {
+            --cds-text-decoration-link: underline;
+            --cds-font-family-boutros-coursera: Boutros Coursera, Tahoma, sans-serif;
+            --cds-font-family-source-sans-pro: Source Sans Pro, Arial, sans-serif;
+            --cds-font-size-1100: 5.5rem;
+            --cds-font-size-1050: 5.25rem;
+            --cds-font-size-1000: 5rem;
+            --cds-font-size-950: 4.75rem;
+            --cds-font-size-900: 4.5rem;
+            --cds-font-size-850: 4.25rem;
+            --cds-font-size-800: 4rem;
+            --cds-font-size-750: 3.75rem;
+            --cds-font-size-700: 3.5rem;
+            --cds-font-size-650: 3.25rem;
+            --cds-font-size-600: 3rem;
+            --cds-font-size-550: 2.75rem;
+            --cds-font-size-500: 2.5rem;
+            --cds-font-size-450: 2.25rem;
+            --cds-font-size-400: 2rem;
+            --cds-font-size-375: 1.875rem;
+            --cds-font-size-350: 1.75rem;
+            --cds-font-size-300: 1.5rem;
+            --cds-font-size-250: 1.25rem;
+            --cds-font-size-200: 1rem;
+            --cds-font-size-175: 0.875rem;
+            --cds-font-size-150: 0.75rem;
+            --cds-font-size-125: 0.625rem;
+            --cds-font-size-100: 0.5rem;
+            --cds-letter-spacing-minus30: -0.003em;
+            --cds-letter-spacing-minus50: -0.005em;
+            --cds-letter-spacing-minus100: -0.01em;
+            --cds-letter-spacing-100: 0.01em;
+            --cds-letter-spacing-0: 0em;
+            --cds-line-height-1200: 6rem;
+            --cds-line-height-1150: 5.75rem;
+            --cds-line-height-1100: 5.5rem;
+            --cds-line-height-1050: 5.25rem;
+            --cds-line-height-1000: 5rem;
+            --cds-line-height-900: 4.5rem;
+            --cds-line-height-850: 4.25rem;
+            --cds-line-height-800: 4rem;
+            --cds-line-height-700: 3.5rem;
+            --cds-line-height-650: 3.25rem;
+            --cds-line-height-600: 3rem;
+            --cds-line-height-550: 2.75rem;
+            --cds-line-height-525: 2.625rem;
+            --cds-line-height-500: 2.5rem;
+            --cds-line-height-450: 2.25rem;
+            --cds-line-height-400: 2rem;
+            --cds-line-height-350: 1.75rem;
+            --cds-line-height-300: 1.5rem;
+            --cds-line-height-250: 1.25rem;
+            --cds-line-height-200: 1rem;
+            --cds-line-height-175: 0.875rem;
+            --cds-line-height-150: 0.75rem;
+            --cds-base: 8;
+            --cds-font-weight-700: 700;
+            --cds-font-weight-600: 600;
+            --cds-font-weight-400: 400;
+            --cds-color-utility-overlay: rgba(99, 99, 99, 0.5);
+            --cds-color-pistachio-900: #353e26;
+            --cds-color-pistachio-800: #4d5a37;
+            --cds-color-pistachio-700: #6a7d4d;
+            --cds-color-pistachio-600: #84aa45;
+            --cds-color-pistachio-500: #a5ca67;
+            --cds-color-pistachio-400: #c0e18a;
+            --cds-color-pistachio-300: #e0f0c5;
+            --cds-color-pistachio-200: #eaf5d8;
+            --cds-color-pistachio-100: #f2f9e8;
+            --cds-color-pistachio-50: #f8fcef;
+            --cds-color-berry-900: #4e1758;
+            --cds-color-berry-800: #6e1e7c;
+            --cds-color-berry-700: #9829ac;
+            --cds-color-berry-600: #b840cd;
+            --cds-color-berry-500: #d78ae1;
+            --cds-color-berry-400: #f7b4ff;
+            --cds-color-berry-300: #fbdbff;
+            --cds-color-berry-200: #fce9ff;
+            --cds-color-berry-100: #fbf3fc;
+            --cds-color-berry-50: #fcf7fd;
+            --cds-color-orange-900: #663005;
+            --cds-color-orange-800: #884d33;
+            --cds-color-orange-700: #a55d3e;
+            --cds-color-orange-600: #c6824d;
+            --cds-color-orange-500: #f7a360;
+            --cds-color-orange-400: #f9b985;
+            --cds-color-orange-300: #fcdabf;
+            --cds-color-orange-200: #feebdc;
+            --cds-color-orange-100: #fff5e6;
+            --cds-color-orange-50: #fff9f0;
+            --cds-color-aqua-900: #174458;
+            --cds-color-aqua-800: #265f77;
+            --cds-color-aqua-700: #2a7ea3;
+            --cds-color-aqua-600: #4da2c6;
+            --cds-color-aqua-500: #60caf7;
+            --cds-color-aqua-400: #85d6f9;
+            --cds-color-aqua-300: #b0e5fb;
+            --cds-color-aqua-200: #d5f3ff;
+            --cds-color-aqua-100: #e5f7ff;
+            --cds-color-aqua-50: #f5fcff;
+            --cds-color-yellow-900: #584c1a;
+            --cds-color-yellow-800: #7c6919;
+            --cds-color-yellow-700: #c2a63a;
+            --cds-color-yellow-600: #dcb831;
+            --cds-color-yellow-500: #f2d049;
+            --cds-color-yellow-400: #f6de80;
+            --cds-color-yellow-300: #faecb6;
+            --cds-color-yellow-200: #fcf4d3;
+            --cds-color-yellow-100: #fdf8e5;
+            --cds-color-yellow-50: #f9f7ef;
+            --cds-color-green-900: #114a30;
+            --cds-color-green-800: #176340;
+            --cds-color-green-700: #1d7c50;
+            --cds-color-green-600: #499471;
+            --cds-color-green-500: #60b08b;
+            --cds-color-green-400: #99c4b0;
+            --cds-color-green-300: #b6dbca;
+            --cds-color-green-200: #d0e8dd;
+            --cds-color-green-100: #e8f2ee;
+            --cds-color-green-50: #f7fbf9;
+            --cds-color-red-900: #710001;
+            --cds-color-red-800: #a90001;
+            --cds-color-red-700: #d30001;
+            --cds-color-red-600: #dc3334;
+            --cds-color-red-500: #e56667;
+            --cds-color-red-400: #ff9899;
+            --cds-color-red-300: #ffbfc0;
+            --cds-color-red-200: #ffd3d3;
+            --cds-color-red-100: #fbe6e6;
+            --cds-color-red-50: #fdf5f5;
+            --cds-color-black-700: #191919;
+            --cds-color-black-500: #1f1f1f;
+            --cds-color-grey-900: #262828;
+            --cds-color-grey-800: #48494a;
+            --cds-color-grey-700: #636363;
+            --cds-color-grey-600: #757778;
+            --cds-color-grey-500: #929599;
+            --cds-color-grey-400: #c3c5c6;
+            --cds-color-grey-300: #e5e7e8;
+            --cds-color-grey-200: #f0f2f3;
+            --cds-color-grey-100: #f5f7f8;
+            --cds-color-grey-50: #f9fcfd;
+            --cds-color-white-0: #ffffff;
+            --cds-color-purple-900: #2a215d;
+            --cds-color-purple-800: #382d8b;
+            --cds-color-purple-700: #4437a8;
+            --cds-color-purple-600: #6a52e9;
+            --cds-color-purple-500: #8875ed;
+            --cds-color-purple-400: #b4a6ff;
+            --cds-color-purple-300: #c9c0ff;
+            --cds-color-purple-200: #e6e1ff;
+            --cds-color-purple-100: #f1effd;
+            --cds-color-purple-50: #f7f6fe;
+            --cds-color-blue-900: #00255d;
+            --cds-color-blue-800: #003584;
+            --cds-color-blue-700: #00419e;
+            --cds-color-blue-600: #0056d2;
+            --cds-color-blue-500: #3f8dff;
+            --cds-color-blue-400: #86b7ff;
+            --cds-color-blue-300: #aecfff;
+            --cds-color-blue-200: #d9e8ff;
+            --cds-color-blue-100: #ebf3ff;
+            --cds-color-blue-50: #f3f8ff;
+            --cds-color-transparent-0: rgba(0, 0, 0, 0);
+            --cds-border-radius-max: 50px;
+            --cds-border-radius-400: 32px;
+            --cds-border-radius-200: 16px;
+            --cds-border-radius-100: 8px;
+            --cds-border-radius-50: 4px;
+            --cds-border-radius-25: 2px;
+            --cds-spacing-1400: 112px;
+            --cds-spacing-1000: 80px;
+            --cds-spacing-800: 64px;
+            --cds-spacing-600: 48px;
+            --cds-spacing-400: 32px;
+            --cds-spacing-300: 24px;
+            --cds-spacing-200: 16px;
+            --cds-spacing-150: 12px;
+            --cds-spacing-100: 8px;
+            --cds-spacing-50: 4px;
+            --cds-typography-action-secondary: var(--cds-font-weight-600) var(--cds-font-size-175)/var(--cds-line-height-250) var(--cds-font-family-source-sans-pro);
+            --cds-typography-action-primary: var(--cds-font-weight-600) var(--cds-font-size-200)/var(--cds-line-height-300) var(--cds-font-family-source-sans-pro);
+            --cds-typography-body-secondary: var(--cds-font-weight-400) var(--cds-font-size-175)/var(--cds-line-height-250) var(--cds-font-family-source-sans-pro);
+            --cds-typography-body-primary: var(--cds-font-weight-400) var(--cds-font-size-200)/var(--cds-line-height-300) var(--cds-font-family-source-sans-pro);
+            --cds-typography-subtitle-medium: var(--cds-font-weight-600) var(--cds-font-size-200)/var(--cds-line-height-250) var(--cds-font-family-source-sans-pro);
+            --cds-typography-subtitle-large: var(--cds-font-weight-600) var(--cds-font-size-250)/var(--cds-line-height-300) var(--cds-font-family-source-sans-pro);
+            --cds-typography-title-small-sm: var(--cds-font-weight-600) var(--cds-font-size-375)/var(--cds-line-height-450) var(--cds-font-family-source-sans-pro);
+            --cds-typography-title-small: var(--cds-font-weight-600) var(--cds-font-size-375)/var(--cds-line-height-450) var(--cds-font-family-source-sans-pro);
+            --cds-typography-title-medium-sm: var(--cds-font-weight-600) var(--cds-font-size-350)/var(--cds-line-height-450) var(--cds-font-family-source-sans-pro);
+            --cds-typography-title-medium: var(--cds-font-weight-600) var(--cds-font-size-450)/var(--cds-line-height-525) var(--cds-font-family-source-sans-pro);
+            --cds-typography-title-large-sm: var(--cds-font-weight-600) var(--cds-font-size-400)/var(--cds-line-height-500) var(--cds-font-family-source-sans-pro);
+            --cds-typography-title-large: var(--cds-font-weight-600) var(--cds-font-size-600)/var(--cds-line-height-700) var(--cds-font-family-source-sans-pro);
+            --cds-typography-display-sm: var(--cds-font-weight-600) var(--cds-font-size-500)/var(--cds-line-height-550) var(--cds-font-family-source-sans-pro);
+            --cds-typography-display: var(--cds-font-weight-600) var(--cds-font-size-800)/var(--cds-line-height-900) var(--cds-font-family-source-sans-pro);
+            --cds-color-utility-warning: var(--cds-color-yellow-500);
+            --cds-color-callouts-background-primary-strong: var(--cds-color-blue-900);
+            --cds-color-callouts-background-primary: var(--cds-color-blue-600);
+            --cds-color-callouts-background-tertiary-weak: var(--cds-color-yellow-50);
+            --cds-color-callouts-background-secondary-weak: var(--cds-color-purple-50);
+            --cds-color-callouts-background-primary-weak: var(--cds-color-blue-100);
+            --cds-color-callouts-tertiary-invert: var(--cds-color-aqua-300);
+            --cds-color-callouts-secondary-invert: var(--cds-color-yellow-500);
+            --cds-color-callouts-tertiary: var(--cds-color-blue-800);
+            --cds-color-callouts-secondary: var(--cds-color-purple-800);
+            --cds-color-feedback-background-warning-weak: var(--cds-color-yellow-50);
+            --cds-color-feedback-background-informative-weak: var(--cds-color-blue-50);
+            --cds-color-feedback-background-success-weak: var(--cds-color-green-50);
+            --cds-color-feedback-background-error-weak: var(--cds-color-red-50);
+            --cds-color-feedback-warning: var(--cds-color-yellow-800);
+            --cds-color-feedback-informative: var(--cds-color-blue-600);
+            --cds-color-feedback-success-invert-weak: var(--cds-color-green-100);
+            --cds-color-feedback-success-hover: var(--cds-color-green-800);
+            --cds-color-feedback-success: var(--cds-color-green-700);
+            --cds-color-feedback-error-invert-weak: var(--cds-color-red-100);
+            --cds-color-feedback-error-hover: var(--cds-color-red-800);
+            --cds-color-feedback-error: var(--cds-color-red-700);
+            --cds-color-neutral-background-primary: var(--cds-color-white-0);
+            --cds-color-neutral-background-primary-weak: var(--cds-color-grey-100);
+            --cds-color-neutral-stroke-primary-invert: var(--cds-color-white-0);
+            --cds-color-neutral-stroke-primary-weak: var(--cds-color-grey-300);
+            --cds-color-neutral-stroke-primary: var(--cds-color-grey-500);
+            --cds-color-neutral-disabled-weak: var(--cds-color-grey-100);
+            --cds-color-neutral-disabled-strong: var(--cds-color-grey-400);
+            --cds-color-neutral-disabled: var(--cds-color-grey-300);
+            --cds-color-neutral-primary-invert: var(--cds-color-white-0);
+            --cds-color-neutral-primary-weak: var(--cds-color-grey-700);
+            --cds-color-neutral-primary: var(--cds-color-black-500);
+            --cds-color-interactive-background-primary-selected-weak: var(--cds-color-purple-50);
+            --cds-color-interactive-background-primary-pressed-weak: var(--cds-color-purple-50);
+            --cds-color-interactive-background-primary-hover-weak: var(--cds-color-blue-50);
+            --cds-color-interactive-stroke-primary-focus-invert: var(--cds-color-blue-50);
+            --cds-color-interactive-stroke-primary-focus: var(--cds-color-purple-600);
+            --cds-color-interactive-primary-selected: var(--cds-color-purple-800);
+            --cds-color-interactive-primary-pressed: var(--cds-color-purple-800);
+            --cds-color-interactive-primary-hover: var(--cds-color-blue-700);
+            --cds-color-interactive-primary: var(--cds-color-blue-600);
+        }
+
+        @media (max-width: 1023.95px) {
+            :root {
+                --cds-typography-display: var(--cds-typography-display-sm);
+                --cds-typography-title-large: var(--cds-typography-title-large-sm);
+                --cds-typography-title-medium: var(--cds-typography-title-medium-sm);
+                --cds-typography-title-small: var(--cds-typography-title-small-sm);
+            }
+        }
+
+        :root[dir='rtl'] {
+            --cds-text-decoration-link: underline;
+            --cds-typography-action-secondary: var(--cds-font-weight-700) var(--cds-font-size-175)/var(--cds-line-height-250) var(--cds-font-family-boutros-coursera);
+            --cds-typography-action-primary: var(--cds-font-weight-700) var(--cds-font-size-200)/var(--cds-line-height-300) var(--cds-font-family-boutros-coursera);
+            --cds-typography-body-secondary: var(--cds-font-weight-400) var(--cds-font-size-175)/var(--cds-line-height-250) var(--cds-font-family-boutros-coursera);
+            --cds-typography-body-primary: var(--cds-font-weight-400) var(--cds-font-size-200)/var(--cds-line-height-300) var(--cds-font-family-boutros-coursera);
+            --cds-typography-subtitle-medium: var(--cds-font-weight-700) var(--cds-font-size-200)/var(--cds-line-height-250) var(--cds-font-family-boutros-coursera);
+            --cds-typography-subtitle-large: var(--cds-font-weight-700) var(--cds-font-size-250)/var(--cds-line-height-300) var(--cds-font-family-boutros-coursera);
+            --cds-typography-title-small-sm: var(--cds-font-weight-700) var(--cds-font-size-375)/var(--cds-line-height-450) var(--cds-font-family-boutros-coursera);
+            --cds-typography-title-small: var(--cds-font-weight-700) var(--cds-font-size-375)/var(--cds-line-height-450) var(--cds-font-family-boutros-coursera);
+            --cds-typography-title-medium-sm: var(--cds-font-weight-700) var(--cds-font-size-350)/var(--cds-line-height-450) var(--cds-font-family-boutros-coursera);
+            --cds-typography-title-medium: var(--cds-font-weight-700) var(--cds-font-size-450)/var(--cds-line-height-525) var(--cds-font-family-boutros-coursera);
+            --cds-typography-title-large-sm: var(--cds-font-weight-700) var(--cds-font-size-400)/var(--cds-line-height-500) var(--cds-font-family-boutros-coursera);
+            --cds-typography-title-large: var(--cds-font-weight-700) var(--cds-font-size-600)/var(--cds-line-height-700) var(--cds-font-family-boutros-coursera);
+            --cds-typography-display-sm: var(--cds-font-weight-700) var(--cds-font-size-500)/var(--cds-line-height-550) var(--cds-font-family-boutros-coursera);
+            --cds-typography-display: var(--cds-font-weight-700) var(--cds-font-size-800)/var(--cds-line-height-900) var(--cds-font-family-boutros-coursera);
+        }
+
+        @media (max-width: 1023.95px) {
+            :root[dir='rtl'] {
+                --cds-typography-display: var(--cds-typography-display-sm);
+                --cds-typography-title-large: var(--cds-typography-title-large-sm);
+                --cds-typography-title-medium: var(--cds-typography-title-medium-sm);
+                --cds-typography-title-small: var(--cds-typography-title-small-sm);
+                --cds-typography-display: var(--cds-typography-display-sm);
+                --cds-typography-title-large: var(--cds-typography-title-large-sm);
+                --cds-typography-title-medium: var(--cds-typography-title-medium-sm);
+                --cds-typography-title-small: var(--cds-typography-title-small-sm);
+            }
+        }
+
+        :root {
+            --cds-font-size-body2: 0.875rem;
+            --cds-font-size-title4: 0.875rem;
+            --cds-letter-spacing-250: -0.2px;
+            --cds-letter-spacing-125: -0.1px;
+            --cds-font-family-body: var(--cds-font-family-source-sans-pro);
+            --cds-font-family-title: var(--cds-font-family-source-sans-pro);
+            --cds-font-family-display: var(--cds-font-family-source-sans-pro);
+            --cds-font-size-body1: var(--cds-font-size-200);
+            --cds-font-size-title3: var(--cds-font-size-200);
+            --cds-font-size-title2: var(--cds-font-size-250);
+            --cds-font-size-title1-xs: var(--cds-font-size-300);
+            --cds-font-size-title1-lg: var(--cds-font-size-350);
+            --cds-font-size-display2-xs: var(--cds-font-size-400);
+            --cds-font-size-display2-sm: var(--cds-font-size-450);
+            --cds-font-size-display2-lg: var(--cds-font-size-550);
+            --cds-font-size-display1-xs: var(--cds-font-size-600);
+            --cds-font-size-display1-sm: var(--cds-font-size-800);
+            --cds-font-size-display1-lg: var(--cds-font-size-1050);
+            --cds-letter-spacing-body2: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-body1: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-title4: var(--cds-letter-spacing-125);
+            --cds-letter-spacing-title3: var(--cds-letter-spacing-125);
+            --cds-letter-spacing-title2: var(--cds-letter-spacing-125);
+            --cds-letter-spacing-title1: var(--cds-letter-spacing-125);
+            --cds-letter-spacing-display2: var(--cds-letter-spacing-125);
+            --cds-letter-spacing-display1: var(--cds-letter-spacing-250);
+            --cds-line-height-body2: var(--cds-line-height-250);
+            --cds-line-height-body1: var(--cds-line-height-300);
+            --cds-line-height-title4: var(--cds-line-height-250);
+            --cds-line-height-title3: var(--cds-line-height-300);
+            --cds-line-height-title2: var(--cds-line-height-350);
+            --cds-line-height-title1-xs: var(--cds-line-height-400);
+            --cds-line-height-title1-lg: var(--cds-line-height-450);
+            --cds-line-height-display2-xs: var(--cds-line-height-500);
+            --cds-line-height-display2-sm: var(--cds-line-height-600);
+            --cds-line-height-display2-lg: var(--cds-line-height-650);
+            --cds-line-height-display1-xs: var(--cds-line-height-700);
+            --cds-line-height-display1-sm: var(--cds-line-height-900);
+            --cds-line-height-display1-lg: var(--cds-line-height-1150);
+            --cds-typography-body2: var(--cds-font-weight-400) var(--cds-font-size-body2)/var(--cds-line-height-body2) var(--cds-font-family-body);
+            --cds-typography-body1: var(--cds-font-weight-400) var(--cds-font-size-body1)/var(--cds-line-height-body1) var(--cds-font-family-body);
+            --cds-typography-title4: var(--cds-font-weight-700) var(--cds-font-size-title4)/var(--cds-line-height-title4) var(--cds-font-family-title);
+            --cds-typography-title3-strong: var(--cds-font-weight-700) var(--cds-font-size-title3)/var(--cds-line-height-title3) var(--cds-font-family-title);
+            --cds-typography-title3: var(--cds-font-weight-600) var(--cds-font-size-title3)/var(--cds-line-height-title3) var(--cds-font-family-title);
+            --cds-typography-title2-weak: var(--cds-font-weight-400) var(--cds-font-size-title2)/var(--cds-line-height-title2) var(--cds-font-family-title);
+            --cds-typography-title2: var(--cds-font-weight-600) var(--cds-font-size-title2)/var(--cds-line-height-title2) var(--cds-font-family-title);
+            --cds-typography-title1-xs-weak: var(--cds-font-weight-400) var(--cds-font-size-title1-xs)/var(--cds-line-height-title1-xs) var(--cds-font-family-title);
+            --cds-typography-title1-xs: var(--cds-font-weight-600) var(--cds-font-size-title1-xs)/var(--cds-line-height-title1-xs) var(--cds-font-family-title);
+            --cds-typography-title1-weak: var(--cds-font-weight-400) var(--cds-font-size-title1-lg)/var(--cds-line-height-title1-lg) var(--cds-font-family-title);
+            --cds-typography-title1: var(--cds-font-weight-600) var(--cds-font-size-title1-lg)/var(--cds-line-height-title1-lg) var(--cds-font-family-title);
+            --cds-typography-display2-xs-weak: var(--cds-font-weight-400) var(--cds-font-size-display2-xs)/var(--cds-line-height-display2-xs) var(--cds-font-family-display);
+            --cds-typography-display2-xs: var(--cds-font-weight-600) var(--cds-font-size-display2-xs)/var(--cds-line-height-display2-xs) var(--cds-font-family-display);
+            --cds-typography-display2-sm-weak: var(--cds-font-weight-400) var(--cds-font-size-display2-sm)/var(--cds-line-height-display2-sm) var(--cds-font-family-display);
+            --cds-typography-display2-sm: var(--cds-font-weight-600) var(--cds-font-size-display2-sm)/var(--cds-line-height-display2-sm) var(--cds-font-family-display);
+            --cds-typography-display2-weak: var(--cds-font-weight-400) var(--cds-font-size-display2-lg)/var(--cds-line-height-display2-lg) var(--cds-font-family-display);
+            --cds-typography-display2: var(--cds-font-weight-600) var(--cds-font-size-display2-lg)/var(--cds-line-height-display2-lg) var(--cds-font-family-display);
+            --cds-typography-display1-xs-weak: var(--cds-font-weight-400) var(--cds-font-size-display1-xs)/var(--cds-line-height-display1-xs) var(--cds-font-family-display);
+            --cds-typography-display1-xs: var(--cds-font-weight-600) var(--cds-font-size-display1-xs)/var(--cds-line-height-display1-xs) var(--cds-font-family-display);
+            --cds-typography-display1-sm-weak: var(--cds-font-weight-400) var(--cds-font-size-display1-sm)/var(--cds-line-height-display1-sm) var(--cds-font-family-display);
+            --cds-typography-display1-sm: var(--cds-font-weight-600) var(--cds-font-size-display1-sm)/var(--cds-line-height-display1-sm) var(--cds-font-family-display);
+            --cds-typography-display1-weak: var(--cds-font-weight-400) var(--cds-font-size-display1-lg)/var(--cds-line-height-display1-lg) var(--cds-font-family-display);
+            --cds-typography-display1: var(--cds-font-weight-600) var(--cds-font-size-display1-lg)/var(--cds-line-height-display1-lg) var(--cds-font-family-display);
+        }
+
+        @media (max-width: 1023.95px) {
+            :root {
+                --cds-typography-display1: var(--cds-typography-display1-sm);
+                --cds-typography-display1-weak: var(--cds-typography-display1-sm-weak);
+                --cds-typography-display2: var(--cds-typography-display2-sm);
+                --cds-typography-display2-weak: var(--cds-typography-display2-sm-weak);
+            }
+        }
+
+        @media (max-width: 599.95px) {
+            :root {
+                --cds-typography-display1: var(--cds-typography-display1-xs);
+                --cds-typography-display1-weak: var(--cds-typography-display1-xs-weak);
+                --cds-typography-display2: var(--cds-typography-display2-xs);
+                --cds-typography-display2-weak: var(--cds-typography-display2-xs-weak);
+                --cds-typography-title1: var(--cds-typography-title1-xs);
+                --cds-typography-title1-weak: var(--cds-typography-title1-xs-weak);
+            }
+        }
+
+        :root[dir='rtl'] {
+            --cds-font-family-body: var(--cds-font-family-boutros-coursera);
+            --cds-font-family-title: var(--cds-font-family-boutros-coursera);
+            --cds-font-family-display: var(--cds-font-family-boutros-coursera);
+            --cds-letter-spacing-body2: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-body1: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-title4: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-title3: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-title2: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-title1: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-display2: var(--cds-letter-spacing-0);
+            --cds-letter-spacing-display1: var(--cds-letter-spacing-0);
+        }
+
+        @media (max-width: 1023.95px) {
+            :root[dir='rtl'] {
+                --cds-typography-display1: var(--cds-typography-display1-sm);
+                --cds-typography-display1-weak: var(--cds-typography-display1-sm-weak);
+                --cds-typography-display2: var(--cds-typography-display2-sm);
+                --cds-typography-display2-weak: var(--cds-typography-display2-sm-weak);
+            }
+        }
+
+        @media (max-width: 599.95px) {
+            :root[dir='rtl'] {
+                --cds-typography-display1: var(--cds-typography-display1-xs);
+                --cds-typography-display1-weak: var(--cds-typography-display1-xs-weak);
+                --cds-typography-display2: var(--cds-typography-display2-xs);
+                --cds-typography-display2-weak: var(--cds-typography-display2-xs-weak);
+                --cds-typography-title1: var(--cds-typography-title1-xs);
+                --cds-typography-title1-weak: var(--cds-typography-title1-xs-weak);
+            }
+        }
+
+        .css-1p7n6e0 {
+            min-width: 360;
+            background-color: #fff;
+            box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+            position: fixed;
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            -webkit-transition: top 0.2s ease-in-out;
+            transition: top 0.2s ease-in-out;
+            z-index: 4000;
+        }
+
+        @media (min-width:0px) {
+            .css-1cxrrkn {
+                padding: 0 var(--cds-spacing-200);
+            }
+        }
+
+        @media (min-width:1024px) {
+            .css-1cxrrkn {
+                padding: 0 var(--cds-spacing-600);
+            }
+        }
+
+        @media (min-width:0px) {
+            .css-1kspkkz {
+                margin: -4px;
+                width: calc(100% + 8px);
+            }
+            .css-1kspkkz>.cds-grid-item {
+                padding: 4px;
+            }
+        }
+
+        @media (min-width:600px) {
+            .css-1kspkkz {
+                margin: -8px;
+                width: calc(100% + 16px);
+            }
+            .css-1kspkkz>.cds-grid-item {
+                padding: 8px;
+            }
+        }
+
+        @media (min-width:1024px) {
+            .css-1kspkkz {
+                margin: -16px;
+                width: calc(100% + 32px);
+            }
+            .css-1kspkkz>.cds-grid-item {
+                padding: 16px;
+            }
+        }
+
+        .css-guxf6x {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .css-6fv407 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 0 var(--cds-spacing-200) 0 0 !important;
+        }
+
+        .css-6fv407 .rc-CourseraLogo {
+            width: 127px;
+            height: 32px;
+        }
+
+        .css-6fv407 .rc-CourseraLogo.team-logo {
+            width: 237px;
+            height: 32px;
+        }
+
+        .css-6fv407 .rc-CourseraLogo.coursera-plus-logo {
+            width: 177px;
+            height: 20px;
+            -webkit-transform: translateY(5px);
+            -moz-transform: translateY(5px);
+            -ms-transform: translateY(5px);
+            transform: translateY(5px);
+        }
+
+        .css-6fv407 .header-logo {
+            min-height: 30px;
+            max-height: 32px;
+            max-width: 200px;
+            min-width: 30px;
+        }
+
+        @media (min-width: 1200px) {
+            .css-6fv407 .header-logo {
+                max-width: 350px;
+            }
+        }
+
+        .css-6fv407 .header-pipe {
+            margin: 8px 16px;
+            height: 26px;
+            border-left: 1px solid var(--cds-color-grey-500);
+        }
+
+        .css-o1szhl {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .css-1h9ktwj {
+            margin-left: auto;
+        }
+
+        .css-9rioy3 {
+            border-bottom: 1px solid var(--cds-color-neutral-stroke-primary-weak);
+        }
+
+        @media (min-width:0px) {
+            .css-9rioy3 {
+                padding: 0 var(--cds-spacing-200);
+            }
+        }
+
+        @media (min-width:1024px) {
+            .css-9rioy3 {
+                padding: 0 var(--cds-spacing-600);
+            }
+        }
+
+        .css-v8pk32 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 7px 0;
+        }
+
+        .css-1p459qo {
+            line-height: 1;
+        }
+
+        .css-t3v7te.css-t3v7te {
+            bottom: unset;
+            position: static;
+            padding: var(--cds-spacing-100);
+        }
+
+        @media (max-width:599.95px) {
+            .css-p2g82x {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                display-content: space-between;
+            }
+        }
+
+        .css-15utrac {
+            margin-top: 25px;
+            max-width: 151px;
+            max-height: 120px;
+        }
+
+        .css-15utrac img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .css-1825nsb {
+            color: var(--cds-color-neutral-primary);
+            font: var(--cds-typography-title2-weak);
+            letter-spacing: var(--cds-letter-spacing-title2);
+        }
+
+        .css-1825nsb strong {
+            font-weight: var(--cds-font-weight-700);
+        }
+
+        .css-6ecy9b {
+            margin: 0;
+            font: var(--cds-typography-subtitle-medium);
+            letter-spacing: var(--cds-letter-spacing-minus30);
+            color: var(--cds-color-neutral-primary);
+        }
+
+        .css-6ecy9b.cds-Typography-displayBlock {
+            display: block;
+        }
+
+        .css-6ecy9b.cds-Typography-displayInline {
+            display: inline;
+        }
+
+        .css-6ecy9b.cds-Typography-alignLeft {
+            text-align: left;
+        }
+
+        .css-6ecy9b.cds-Typography-alignCenter {
+            text-align: center;
+        }
+
+        .css-6ecy9b.cds-Typography-alignRight {
+            text-align: right;
+        }
+
+        .css-6ecy9b.cds-Typography-alignJustify {
+            text-align: justify;
+        }
+
+        .css-6ecy9b strong {
+            font-weight: var(--cds-font-weight-700);
+            font-family: inherit;
+        }
+
+        .css-f70avt {
+            margin: auto;
+        }
+    </style>
+    <style data-aphrodite="_wwcfwz _yqjywj _1nhfz2 _181t6pv _liimpa">
+        ._wwcfwz:focus {
+            outline: auto 3px #2A73CC;
+        }
+
+        ._yqjywj {
+            position: relative;
+            width: 152px;
+            padding-bottom: 29.605263157894733%;
+            height: 0px;
+        }
+
+        @media (max-width: 824px) {
+            ._yqjywj {
+                max-width: 95vw;
+            }
+        }
+
+        @media (max-width: 608px) {
+            ._yqjywj {
+                max-width: 90vw;
+            }
+        }
+
+        ._1nhfz2 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+        ._181t6pv {
+            position: relative;
+            width: 151px;
+            padding-bottom: 79.47019867549669%;
+            height: 0px;
+        }
+
+        @media (max-width: 824px) {
+            ._181t6pv {
+                max-width: 95vw;
+            }
+        }
+
+        @media (max-width: 608px) {
+            ._181t6pv {
+                max-width: 90vw;
+            }
+        }
+
+        ._liimpa {
+            position: relative;
+            width: 28px;
+            padding-bottom: 100%;
+            height: 0px;
+        }
+
+        @media (max-width: 824px) {
+            ._liimpa {
+                max-width: 95vw;
+            }
+        }
+
+        @media (max-width: 608px) {
+            ._liimpa {
+                max-width: 90vw;
+            }
+        }
+    </style>
+    <script data-ssr="true">
+        window.ssr = true
+    </script>
+    <script>
+        ! function(e) {
+            function webpackJsonpCallback(c) {
+                for (var f, d, b = c[0], n = c[1], o = c[2], u = 0, i = []; u < b.length; u++) d = b[u], Object.prototype.hasOwnProperty.call(r, d) && r[d] && i.push(r[d][0]), r[d] = 0;
+                for (f in n) Object.prototype.hasOwnProperty.call(n, f) && (e[f] = n[f]);
+                for (t && t(c); i.length;) i.shift()();
+                return a.push.apply(a, o || []), checkDeferredModules()
+            }
+
+            function checkDeferredModules() {
+                for (var e, c = 0; c < a.length; c++) {
+                    for (var f = a[c], d = !0, b = 1; b < f.length; b++) {
+                        var t = f[b];
+                        0 !== r[t] && (d = !1)
+                    }
+                    d && (a.splice(c--, 1), e = __webpack_require__(__webpack_require__.s = f[0]))
+                }
+                return e
+            }
+            var c = {},
+                r = {
+                    manifest: 0
+                },
+                a = [];
+
+            function __webpack_require__(r) {
+                if (c[r]) return c[r].exports;
+                var module = c[r] = {
+                    i: r,
+                    l: !1,
+                    exports: {}
+                };
+                return e[r].call(module.exports, module, module.exports, __webpack_require__), module.l = !0, module.exports
+            }
+            __webpack_require__.e = function(e) {
+                var c = [],
+                    a = r[e];
+                if (0 !== a)
+                    if (a) c.push(a[2]);
+                    else {
+                        var f = new Promise((function(c, f) {
+                            a = r[e] = [c, f]
+                        }));
+                        c.push(a[2] = f);
+                        var d, b = document.createElement("script");
+                        b.charset = "utf-8", b.timeout = 120, __webpack_require__.nc && b.setAttribute("nonce", __webpack_require__.nc), b.src = function(e) {
+                            return __webpack_require__.p + "" + function(e) {
+                                return {
+                                    "3": true,
+                                    "4": true,
+                                    "5": true,
+                                    "8": true,
+                                    "10": true,
+                                    "12": true,
+                                    "16": true,
+                                    "17": true,
+                                    "19": true,
+                                    "23": true,
+                                    "28": true,
+                                    "33": true,
+                                    "34": true,
+                                    "41": true,
+                                    "42": true,
+                                    "app": true,
+                                    "asyncCommonJS": true,
+                                    "manifest": true
+                                }[e] ? "en." + e: e
+                            }(e) + "." + {
+                                0: "90d6e5702b5292b10fa7",
+                                1: "28122126183147b7e6b0",
+                                2: "f381cd9863f465251647",
+                                3: "d1a3d9a7782be3d27f6d",
+                                4: "98673a7dcb2683765d04",
+                                5: "c7a414906f770e6d6259",
+                                6: "9449195a76237c3b5aed",
+                                7: "c53fe5bf8d4837f59c41",
+                                8: "2c13a9774f0eed648c88",
+                                9: "25ece1832f429ae5ec7a",
+                                10: "20c32ba2d12f1195011f",
+                                11: "7dce4d40fa4c7029c96f",
+                                12: "aa089a125c3aa4d26ad4",
+                                13: "d15e7ab1d253af32893e",
+                                14: "18da34790dc1e009421d",
+                                15: "38126716d345c7915c35",
+                                16: "5bffdf6c0f537215b865",
+                                17: "f0f8ab80bd61ddc16dc4",
+                                18: "a774e920f111a917cdbc",
+                                19: "4bb2396db12ac8903381",
+                                20: "6037f89a9ede3c322e5e",
+                                21: "1c849b863a11419b6d4d",
+                                22: "1441c3d75b0383016996",
+                                23: "8e873804911c5c1c34fc",
+                                24: "d85890b64c3f7faf3918",
+                                25: "47644d185987750e4968",
+                                26: "01d482866e6338a216d6",
+                                27: "73dea0322e890d5096e5",
+                                28: "bad52ee153cc4add61f7",
+                                29: "7d7e485adfec0de2adae",
+                                30: "dede878e323bbe77c06d",
+                                31: "10683f30e0f3f7dc308c",
+                                32: "c320236932122009b8ed",
+                                33: "3310455600a4755522f9",
+                                34: "8049edef505c4f14782f",
+                                35: "9515a3d15ec4971b1885",
+                                36: "4292b0566873d675518c",
+                                37: "dd7df0b8ffd79ab065c3",
+                                38: "b112a3b4904f1912b0af",
+                                39: "f832052e02187d96f92f",
+                                40: "0cf72490556c083a75bd",
+                                41: "f4b2646f6cdcea1f38cd",
+                                42: "8035eb78bfce56d8c6e7",
+                                43: "dc8de2ece0209f29937d",
+                                44: "983ccf91c2d70b445ef5",
+                                45: "784f77a2504f9d470489",
+                                46: "8233d3f3212f8b5284ec",
+                                47: "e649f1279ca68ed18d25",
+                                48: "ba67f11c81982a4d4738",
+                                49: "bc6418f55c931ba911f2",
+                                50: "2c35d144e7c97a5e15a8",
+                                51: "68dccebb206f3f721d31",
+                                52: "ef6cbe0810cfc1712002",
+                                53: "3e0cfa001f4fad7a6550",
+                                54: "65334017ac1292d04211",
+                                55: "60f65a8616aed7fe8ec4",
+                                56: "8c3a1dd358ad3c392a6f",
+                                57: "dcb289af98df415ef87a",
+                                58: "dd401329669972e2dc35",
+                                59: "869881ce588136593a76",
+                                60: "69fcd9187b4266b537cb",
+                                61: "e19c5372debef5fc1bf6",
+                                62: "e035284f8b1c709505b4",
+                                63: "8a2ecbf34f715265b0cb",
+                                64: "b4ede1843f78f490231b",
+                                65: "229fd04f556fbd884b31",
+                                66: "8ea6e58e2612bb58e4b2",
+                                asyncCommonJS: "35a864927e5d84b25bf2"
+                            }[e] + ".js"
+                        }(e);
+                        var t = new Error;
+                        d = function(c) {
+                            b.onerror = b.onload = null, clearTimeout(n);
+                            var a = r[e];
+                            if (0 !== a) {
+                                if (a) {
+                                    var f = c && ("load" === c.type ? "missing" : c.type),
+                                        d = c && c.target && c.target.src;
+                                    t.message = "Loading chunk " + e + " failed.\n(" + f + ": " + d + ")", t.name = "ChunkLoadError", t.type = f, t.request = d, a[1](t)
+                                }
+                                r[e] = void 0
+                            }
+                        };
+                        var n = setTimeout((function() {
+                            d({
+                                type: "timeout",
+                                target: b
+                            })
+                        }), 12e4);
+                        b.onerror = b.onload = d, document.head.appendChild(b)
+                    }
+                return Promise.all(c)
+            }, __webpack_require__.m = e, __webpack_require__.c = c, __webpack_require__.d = function(exports, e, c) {
+                __webpack_require__.o(exports, e) || Object.defineProperty(exports, e, {
+                    enumerable: !0,
+                    get: c
+                })
+            }, __webpack_require__.r = function(exports) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(exports, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(exports, "__esModule", {
+                    value: !0
+                })
+            }, __webpack_require__.t = function(e, c) {
+                if (1 & c && (e = __webpack_require__(e)), 8 & c) return e;
+                if (4 & c && "object" == typeof e && e && e.__esModule) return e;
+                var r = Object.create(null);
+                if (__webpack_require__.r(r), Object.defineProperty(r, "default", {
+                        enumerable: !0,
+                        value: e
+                    }), 2 & c && "string" != typeof e)
+                    for (var a in e) __webpack_require__.d(r, a, function(c) {
+                        return e[c]
+                    }.bind(null, a));
+                return r
+            }, __webpack_require__.n = function(module) {
+                var e = module && module.__esModule ? function() {
+                    return module.default
+                } : function() {
+                    return module
+                };
+                return __webpack_require__.d(e, "a", e), e
+            }, __webpack_require__.o = function(e, c) {
+                return Object.prototype.hasOwnProperty.call(e, c)
+            }, __webpack_require__.p = "https://d3njjcbhbojbot.cloudfront.net/webapps/r2-builds/about/", __webpack_require__.oe = function(e) {
+                throw console.error(e), e
+            };
+            var f = window.webpackJsonp = window.webpackJsonp || [],
+                d = f.push.bind(f);
+            f.push = webpackJsonpCallback, f = f.slice();
+            for (var b = 0; b < f.length; b++) webpackJsonpCallback(f[b]);
+            var t = d;
+            checkDeferredModules()
+        }([]);
+    </script>
+ </head>
+    <div id="fb-root"></div>
+    <div id="rendered-content">
+        <div class="rc-MetatagsWrapper">
+            <style>
+                .button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 30px;
+  min-width: 20px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #00b023;
+  box-shadow: rgba(0, 255, 34, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+               
+                .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      position: fixed; /* Sticky to top */
+      top: 0;
+      left: 0;
+      width: 100%; /* Full width */
+      z-index: 10; /* Ensure navbar stays above content */
+      border-bottom: 1px solid #ccc; /* Add bottom border */
+    }
+  
+  .logo img {
+    width: 180px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .navbar .logo {
+      order: 1; /* Ensure logo is the first element in the column */
+    }
+    .button-28 {
+      display: none; /* Hide download button on mobile */
+    }
+  }
+</style>
+
+<header class="navbar">
+  <a href="./index.html" class="logo">
+    <img src="./img/Frame 1.png" alt="Your Company Logo">
+  </a>
+  <a href="./Contact/download now.html" class="button-28" role="button">Download</a>
+</header>
+<div style="display:flex;align-items:center">
+  <span class="iconContainer"></span>
+</div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="rc-MobileSearchPage" style="z-index:3001">
+        <div class="mobile-search-body-wrapper"></div>
+    </div>
+    </div>
+    </div>
+    </span>
+    <div class="bt3-container c-about-canvas-container" role="main">
+        <div class="coursera-full-canvas">
+            <div class="coursera-about-body">
+                <div class="rc-PrivacyPage" data-e2e="Privacy_Page">
+                    <div class="bt3-row-fluid coursera-about-nav"><a class="internal-about" href="/about/terms" data-e2e="/about/terms"><br>Terms of Use</a></div>
+                    <div class="coursera-tos">
+                        <div class="coursera-tos-text">
+                            <div class="rc-AboutSection" id="privacy-notice">
+                                <hr class="header-after" />
+                                <h1>Privacy Policy</h1>
+                                <hr class="header-after" />
+                                <div id="effective-date-privacy-notice" data-testid="effective-date-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <p><em>Effective: July 1, 2024.</em></p>
+                                    </div>
+                                </div>
+                                <div class="key-information" id="key-information-privacy-notice" data-testid="key-information-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="key-information">Key Information</h2>
+                                        <ul role="list">
+                                            <li role="listitem">Rotable Ventures ("we", "us", or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
+
+                                                <ul style="list-style-type: disc; padding-left:1.5em;">
+                                                  <li>Visit our website at <a href="https://rotable.in/">https://rotable.in/</a> , or any website of ours that links to this privacy notice</li>
+                                                  <li>Download and use our mobile application (Rotable), or any other application of ours that links to this privacy notice</li>
+                                                  <li>Engage with us in other related ways, including any sales, marketing, or events</li>
+                                                </ul>
+                                                
+                                                 <strong>Questions or concerns?</strong> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:rutwikjoshi@gmail.com">rutwikjoshi@gmail.com</a>.
+                                                </li><br>
+
+                                                <li role="listitem" style="text-align: center;"><strong>SUMMARY OF KEY POINTS</strong><br><br></li>
+
+
+                                                    <strong>This summary provides key points from our privacy notice, but you can find out more detail
+                                                    about any of these topics by clicking the link following each key point or by using our table of
+                                                    contents below to find the section you are looking for.</strong><br><br>
+                                                    
+                                                    <strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we
+                                                    may process personal information depending on how you interact with us and the Services, the
+                                                    choices you make, and the products and features you use. Learn more about personal information
+                                                    you disclose to us.<br><br>
+                                                    
+                                                    <strong>Do we process any sensitive personal information?</strong> We do not process sensitive personal information.<br><br>
+                                                    
+                                                    <strong>Do we collect any information from third parties?</strong> We do not collect any information from third
+                                                    parties.<br><br></li>
+                                        
+                                            <li role="listitem"><strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about how we process your information.</li>
+                                            <li role="listitem"><strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific third parties. Learn more about when and with whom we share your personal information.</li>
+                                            <li role="listitem"><strong>How do we keep your information safe?</strong>. We have organisational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about how we keep your information safe.</li>
+                                            <li role="listitem"><strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about your privacy rights.</li>
+                                            <li role="listitem"><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by visiting our office, or by contacting us. <br><br>We will consider and act upon any request in accordance with applicable data protection laws.
+                                            Want to learn more about what we do with any information we collect?</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="information-about-us-and-how-we-collect-use-and-store-your-personal-data-privacy-notice" data-testid="information-about-us-and-how-we-collect-use-and-store-your-personal-data-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <p>You can find information about us and how we collect, use and store your personal data in each section of this Privacy Notice:</p>
+                                        <ul role="list">
+                                            <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#legal-bases-for-collecting-and-using-personal-data-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#legal-bases-for-collecting-and-using-personal-data-privacy-notice" href="#legal-bases-for-collecting-and-using-personal-data-privacy-notice"
+                                                    to="#legal-bases-for-collecting-and-using-personal-data-privacy-notice" target="_self">WHAT INFORMATION DO WE COLLECT?</a></li>
+                                            <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#what-personal-data-we-collect-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#what-personal-data-we-collect-privacy-notice" href="#what-personal-data-we-collect-privacy-notice"
+                                                    to="#what-personal-data-we-collect-privacy-notice" target="_self">HOW DO WE PROCESS YOUR INFORMATION?</a></li>
+                                            <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#how-we-use-personal-data-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#how-we-use-personal-data-privacy-notice" href="#how-we-use-personal-data-privacy-notice" to="#how-we-use-personal-data-privacy-notice"
+                                                    target="_self"> WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a></li>
+                                            <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#external-links-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#external-links-privacy-notice" href="#external-links-privacy-notice" to="#external-links-privacy-notice"
+                                                    target="_self">DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</a></li>
+                                            <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#retention-of-personal-data-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#retention-of-personal-data-privacy-notice" href="#retention-of-personal-data-privacy-notice" to="#retention-of-personal-data-privacy-notice"
+                                                    target="_self">HOW LONG DO WE KEEP YOUR INFORMATION?</a></li>
+                                            <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#confidentiality-security-of-personal-data-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#confidentiality-security-of-personal-data-privacy-notice" href="#confidentiality-security-of-personal-data-privacy-notice"
+                                                    to="#confidentiality-security-of-personal-data-privacy-notice" target="_self">HOW DO WE KEEP YOUR INFORMATION SAFE? </a></li>
+                                            <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#your-rights-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#your-rights-privacy-notice" href="#your-rights-privacy-notice" to="#your-rights-privacy-notice" target="_self">WHAT ARE YOUR PRIVACY RIGHTS?</a></li>
+                                            <li
+                                                role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#questions-suggestions-and-complaints-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                    data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#questions-suggestions-and-complaints-privacy-notice" href="#questions-suggestions-and-complaints-privacy-notice"
+                                                    to="#questions-suggestions-and-complaints-privacy-notice" target="_self"> CONTROLS FOR DO-NOT-TRACK FEATURES</a></li>
+                                                <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#us-state-privacy-rights-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                        data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#us-state-privacy-rights-privacy-notice" href="#us-state-privacy-rights-privacy-notice" to="#us-state-privacy-rights-privacy-notice"
+                                                        target="_self">DO WE MAKE UPDATES TO THIS NOTICE? </a></li>
+                                                <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#international-privacy-practices-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                        data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#international-privacy-practices-privacy-notice" href="#international-privacy-practices-privacy-notice"
+                                                        to="#international-privacy-practices-privacy-notice" target="_self">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a></li>
+                                                <li role="listitem"><a data-click-key="..click.link_in_contentful" data-click-value="{&quot;href&quot;:&quot;#changing-our-privacy-notice-privacy-notice&quot;,&quot;namespace&quot;:{&quot;action&quot;:&quot;click&quot;,&quot;component&quot;:&quot;link_in_contentful&quot;},&quot;schema_type&quot;:&quot;FRONTEND&quot;}"
+                                                        data-track="true" data-track-action="click" data-track-component="link_in_contentful" data-track-href="#changing-our-privacy-notice-privacy-notice" href="#changing-our-privacy-notice-privacy-notice"
+                                                        to="#changing-our-privacy-notice-privacy-notice" target="_self">HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                               <br>
+                                <div id="legal-bases-for-collecting-and-using-personal-data-privacy-notice" data-testid="legal-bases-for-collecting-and-using-personal-data-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="legal-bases-for-collecting-and-using-personal-data">WHAT INFORMATION DO WE COLLECT?</h2>
+                                        <p><strong>In Short: </strong>We collect personal information that you provide to us.</p>
+                                        <ul role="list">
+                                            <li role="listitem">We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.</li>
+                        
+                                            <li role="listitem">Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following: <br><br>
+                                                <ul role="list">
+                                                    <li role="listitem">names</li>
+                                                    <li role="listitem">phone numbers</li>
+                                                    <li role="listitem">location</li>
+                                                    <li role="listitem">email addresses</li>
+                                                    <li role="listitem">usernames</li>
+                                                    <li role="listitem">billing addresses</li>
+                                                    <li role="listitem">debit/credit card numbers</li>
+                                                </ul>
+                                            </li>
+                                            <li role="listitem"><strong>Sensitive Information.</strong> We do not process sensitive information</li>
+                                        </ul>
+                                        <p><strong>Payment Data.</strong> We may collect data necessary to process your payment if you choose to make purchases, such as your payment instrument number, and the security code associated with your payment instrument. All payment data is handled and stored by CashFree. You may find their privacy notice link(s) here:<a href=" https://www.cashfree.com/privacypolicy/"> https://www.cashfree.com/privacypolicy/</a></p>
+                                        <ul role="list">
+                                            
+                                            <li role="listitem">Application Data. If you use our application(s), we also may collect the following information if you choose to provide us with access or permission: <br><br>
+                                                <ul role="list">
+                                                    <li role="listitem">Geolocation Information. We may request access or permission to track location-based information from your mobile device, either continuously or while you are using our mobile application(s), to provide certain location-based services. If you wish to change our access or permissions, you may do so in your device's settings.</li>
+                                                    <li role="listitem">Mobile Device Access. We may request access or permission to certain features from your mobile device, including your mobile device's and other features. If you wish to change our access or permissions, you may do so in your device's settings.</li>
+                                                    <li role="listitem">Mobile Device Data. We automatically collect device information (such as your mobile device ID, model, and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model Internet service provider and/or mobile carrier, and Internet Protocol (IP) address (or proxy server). If you are using our application(s), we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID, and information about the features of our application(s) you accessed.</li>
+                                                    <li role="listitem">Push Notifications. We may request to send you push notifications regarding your account or certain features of the application(s). If you wish to opt out from receiving these types of communications, you may turn them off in your device's settings.</li>
+                                                </ul>
+                                            </li>
+                    
+                                        </ul>
+                                        <p>This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.</p>
+                                        <p>All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.</p>
+                                        <li role="listitem">We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes.</li>
+                                        <p>Like many businesses, we also collect information through cookies and similar technologies.</p>
+                                        <li role="listitem">The information we collect includes:Location Data. We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.</li>
+                                    </div>
+                                </div>
+                                <br>  <br>
+                                <div id="what-personal-data-we-collect-privacy-notice" data-testid="what-personal-data-we-collect-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="what-personal-data-we-collect">HOW DO WE PROCESS YOUR INFORMATION?</h2>
+                                        <ul role="list">
+                                            
+                                            <li role="listitem"><strong>We process your personal information for a variety of reasons, depending on how you interact with our Services, including:</strong> <br><br>
+                                                <ul role="list">
+                                                    <li role="listitem"><strong>To facilitate account creation and authentication and otherwise manage user accounts.</strong> We may process your information so you can create and log in to your account, as well as keep your account in working order.</li>
+                                                    <li role="listitem"><strong>To deliver and facilitate delivery of services to the user.</strong> We may process your information to provide you with the requested service.</li>
+                                                    <li role="listitem"><strong>To fulfil and manage your orders. </strong>We may process your information to fulfil and manage your orders, payments, returns, and exchanges made through the Services.</li>
+                                                    <li role="listitem"><strong>To send you marketing and promotional communications.</strong> We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time.</li>
+                                                    <li role="listitem"><strong>To deliver targeted advertising to you.</strong> We may process your information to develop and display personalised content and advertising tailored to your interests, location, and more.</li>
+                                                    <li role="listitem"><strong>To identify usage trends. </strong>We may process information about how you use our Services to better understand how they are being used so we can improve them/</li>
+                                                </ul>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div><br>
+                                        
+                                <div id="how-we-use-personal-data-privacy-notice" data-testid="how-we-use-personal-data-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="how-we-use-personal-data">WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h2>
+                                        <p><strong>In Short:</strong> We may share information in specific situations described in this section and/or with the following third parties.</p>
+                                          <ul role="list">
+                                            
+                                            <li role="listitem">We may need to share your personal information in the following situations:<br><br>
+                                                <ul role="list">
+                                                    <li role="listitem"><strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
+                                                    <li role="listitem"><strong>When we use Google Maps Platform APIs.</strong> We may share your information with certain Google Maps Platform APIs (e.g. Google Maps API, Places API). We use certain Google Maps Platform APIs to retrieve certain information when you make location-specific requests. This includes: Current Location; and other similar information. A full list of what we use information for can be found in this section and in the previous section titled 'HOW DO WE PROCESS YOUR INFORMATION?' The Google Maps Platform APIs that we use store and access cookies and other information on your devices. If you are a user currently in the European Economic Area (EU countries, Iceland, Liechtenstein, and Norway) or the United Kingdom, please take a look at our Cookie Notice.</li>
+                                                    <li role="listitem"><strong>Offer Wall.</strong> Our application(s) may display a third-party hosted 'offer wall'. Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.</li>
+                                                    </ul>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div><br>
+                                <div id="external-links-privacy-notice" data-testid="external-links-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="external-links">DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h2>
+                                        <p><strong>In Short:</strong> We may use cookies and other tracking technologies to collect and store your information.</p>
+                                        <p>We may use cookies and similar tracking technologies (like web beacons and pixels) to gather information when you interact with our Services. Some online tracking technologies help us maintain the security of our Services and your account, prevent crashes, fix bugs, save your preferences, and assist with basic site functions.</p>
+                                        <p>We also permit third parties and service providers to use online tracking technologies on our Services for analytics and advertising, including to help manage and display advertisements, to tailor advertisements to your interests, or to send abandoned shopping cart reminders (depending on your communication preferences). The third parties and service providers use their technology to provide advertising about products and services tailored to your interests which may appear either on our Services or on other websites.</p>
+                                        <p>Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.</p>
+                                        </div>
+                                </div><br>
+                                <div id="retention-of-personal-data-privacy-notice" data-testid="retention-of-personal-data-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="retention-of-personal-data">HOW LONG DO WE KEEP YOUR INFORMATION?</h2>
+                                        <p><strong>In Short:</strong> We keep your information for as long as necessary to fulfil the purposes outlined in this privacy notice unless otherwise required by law.</p>
+                                        <p>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than the period of time in which users have an account with us.</p>
+                                        <p>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymise such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
+                                    </div>
+                                </div><br>
+                                <div id="confidentiality-security-of-personal-data-privacy-notice" data-testid="confidentiality-security-of-personal-data-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="confidentiality-security-of-personal-data">HOW DO WE KEEP YOUR INFORMATION SAFE?</h2>
+                                        <p>We have implemented appropriate and reasonable technical and organisational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
+                                    </div>
+                                </div><br>
+                                <div id="your-rights-privacy-notice" data-testid="your-rights-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="your-rights">WHAT ARE YOUR PRIVACY RIGHTS?</h2>
+                                        <p><strong>Withdrawing your consent:</strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below.</p>
+                                               <p> However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.</p>
+                                               <p><strong>Opting out of marketing and promotional communications:</strong> You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided in the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?' below. You will then be removed from the marketing lists. However, we may still communicate with you — for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.</p>
+                                               <h4 id="your-rights"><strong>Account Information</strong></h4><br>
+                                               <p>If you would at any time like to review or change the information in your account or terminate your account, you can:</p>
+                                               <ul role="list">
+                                            <li role="listitem">provide you with a copy of any Personal Data which we hold about you. </li>
+                                        </ul>
+                                        <p>Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.</p>
+                                        <p>If you have questions or comments about your privacy rights, you may email us at <a href="mailto:rutwikjoshi@gmail.com">rutwikjoshi@gmail.com</a></p>
+                                    </div>
+                                </div><br>
+                                <div id="questions-suggestions-and-complaints-privacy-notice" data-testid="questions-suggestions-and-complaints-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="questions-suggestions-and-complaints">CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
+                                        <p>Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ('DNT') feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognising and implementing DNT signals has been finalised. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.</p>
+                                        
+                                    </div>
+                                </div><br>
+                                <div id="u-s-state-privacy-rights-privacy-notice" data-testid="u-s-state-privacy-rights-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="us-state-privacy-rights">DO WE MAKE UPDATES TO THIS NOTICE?</h2>
+                                    
+                                        <p><strong>In Short:</strong> Yes, we will update this notice as necessary to stay compliant with relevant laws.</p>
+                                        <p>We may update this privacy notice from time to time. The updated version will be indicated by an updated 'Revised' date at the top of this privacy notice. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.</p>
+                                        
+                                    </div>
+                                </div>
+                                <div id="international-privacy-practices-privacy-notice" data-testid="international-privacy-practices-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="international-privacy-practices">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
+                                        <p>If you have questions or comments about this notice, you may email us at <a href="mailto:rutwikjoshi@gmail.com">rutwikjoshi@gmail.com</a> or contact us by post at:</p>
+                                        <p>
+                                            Rotable Ventures<br>
+                                            Tipsy Turk, 2nd floor Buty building, Mount Road Sadar<br>
+                                            Nagpur, Maharashtra 440001<br>
+                                            India
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="changing-our-privacy-notice-privacy-notice" data-testid="changing-our-privacy-notice-privacy-notice">
+                                    <div class="rc-Markdown styled">
+                                        <h2 id="changing-our-privacy-notice">HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
+                                        <p>You have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please visit: Rotable.in.</p>
+                                    </div>
+                                </div>
+                               
+                           
+   
+                 
+                        
+                        <div class="cds-9 css-f70avt cds-11 cds-grid-item cds-70">
+                            <div class="rc-SeoGlobalFooter__social-media-and-copyright lohp-rebrand">
+                                <div class="rc-CopyrightV2 lohp-rebrand"><span class="rc-CopyrightV2__text">© 2024 Rotable Ventures. All rights reserved.</span></div>
+                                <div class="rc-SocialMediaLinksV2 lohp-rebrand">
+                                    <ul class="rc-SocialMediaLinksV2__social-media-list"> </footer>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script>
+        var loadScript = function(url, success, async) {
+            var newScript = document.createElement('script');
+            var scripts = document.getElementsByTagName('script');
+
+            newScript.type = 'text/javascript';
+            newScript.async = async || false;
+            newScript.crossOrigin = 'anonymous';
+
+            if (success) {
+                if (newScript.addEventListener) {
+                    newScript.addEventListener('load', function() {
+                        success();
+                    }, false);
+                } else if (newScript.readyState) {
+                    newScript.onreadystatechange = function() {
+                        if (this.readyState == 'complete') {
+                            newScript.onreadystatechange = null;
+                            success();
+                        }
+                    };
+                }
+            }
+
+            if (scripts && scripts.length) {
+                var lastScript = scripts[scripts.length - 1];
+                lastScript.parentNode.insertBefore(newScript, lastScript.nextSibling);
+            } else if (window.document && window.document.body) {
+                window.document.body.appendChild(newScript);
+            }
+
+            // IE9 will execute the proper order if src is set AFTER injection
+            newScript.src = url;
+        }
+
+        window.coursera = {};
+        window.appName = "about";
+        window.locale = "en";
+    </script>
+</body>
+
+</html>
