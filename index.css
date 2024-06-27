@@ -476,7 +476,12 @@ background-color: #f0f0f0; /* Optional: Set background color */
   transform: scale(1.1); /* Adjust the scale factor for the hover effect */
   box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
 }
-
+.footer-privacy-policy {
+  padding-top: 110px;
+  font-weight: bold;
+  bottom: 0;
+  width: 100%;
+}
 .image-126-parent {
   flex: 1;
   display: flex;
