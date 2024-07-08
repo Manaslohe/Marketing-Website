@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mobile Phone Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/Vector.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/Vector.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="verify.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script>
+</head>
+
+<body class="relative font-inter antialiased">
+    <main class="relative min-h-screen flex flex-col justify-center bg-gray-600 overflow-hidden">
+        <div class="w-full max-w-4xl mx-auto px-4 md:px-6 py-24">
+            <div class="flex justify-center">
+                <div class="max-w-lg mx-auto text-center bg-white px-4 sm:px-8 py-10 rounded-xl shadow">
+                    <header id="header-text" class="mb-8">
+                        <h1 class="text-2xl font-bold mb-1">Verification</h1>
+                        <p class="text-[15px] text-slate-500">Enter your phone number to receive a verification code.</p>
+                    </header>
+                    <div id="sender">
+                        <input type="text" id="number" placeholder="+91......" class="input-field" />
+                        <div id="recaptcha-container" class="captcha-box"></div>
+                        <button id="send" class="send-btn" onclick="phoneAuth()">Send</button>
+                    </div>
+                    <div id="verifier" style="display: none;">
+                        <input type="text" id="verificationcode" placeholder="OTP Code" class="input-field" />
+                        <button id="verify" class="send-btn" onclick="codeverify()">Verify</button>
+                        <div class="p-conf mt-4 hidden text-green-600 font-medium">Number Verified</div>
+                        <div class="n-conf mt-4 hidden text-red-600 font-medium">OTP Error</div>
+                        <button id="home" class="home-btn hidden" onclick="window.location.href='./index.html'">Return to ROTABLE Home Page</button>
+                    </div>
+                    <div id="verificationMessage" class="verification-message hidden mt-4 text-green-600 font-medium">
+                        You are verified successfully, we will delete your data shortly.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyAit45v63nN_55nvYsE3CjMvYorB2Wpzec",
+            authDomain: "rotable-d6b19.firebaseapp.com",
+            projectId: "rotable-d6b19",
+            storageBucket: "rotable-d6b19.appspot.com",
+            messagingSenderId: "649082498971",
+            appId: "1:649082498971:web:5706ff49c07b33fa9abb3e"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        function render() {
+            window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier("recaptcha-container");
+            recaptchaVerifier.render();
+        }
+
+        render();
+
+        // Function to send the OTP
+        function phoneAuth() {
+            const number = document.getElementById("number").value;
+            firebase.auth().signInWithPhoneNumber(number, window.recaptchaVerifier)
+                .then(confirmationResult => {
+                    window.confirmationResult = confirmationResult;
+                    document.getElementById("sender").style.display = "none";
+                    document.getElementById("verifier").style.display = "block";
+                    document.getElementById("header-text").innerHTML = '<h1 class="text-2xl font-bold mb-1">Verify Your OTP</h1><p class="text-[15px] text-slate-500">Enter the OTP sent to your phone number.</p>';
+                }).catch(error => {
+                    alert(error.message);
+                });
+        }
+
+        // Function to verify the OTP
+        function codeverify() {
+            const code = document.getElementById("verificationcode").value;
+            window.confirmationResult.confirm(code).then(result => {
+                document.querySelector(".p-conf").classList.remove('hidden');
+                document.querySelector(".n-conf").classList.add('hidden');
+                document.getElementById("verificationMessage").classList.remove('hidden');
+                document.getElementById("home").classList.remove('hidden');
+            }).catch(error => {
+                document.querySelector(".p-conf").classList.add('hidden');
+                document.querySelector(".n-conf").classList.remove('hidden');
+            });
+        }
+    </script>
+</body>
+
+</html>
