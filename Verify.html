@@ -17,6 +17,7 @@
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
 </head>
 
 <body class="relative font-inter antialiased">
@@ -83,20 +84,38 @@
                 });
         }
 
-        // Function to verify the OTP
+        // Function to verify the OTP and append the phone number to Google Form
         function codeverify() {
             const code = document.getElementById("verificationcode").value;
             window.confirmationResult.confirm(code).then(result => {
+                submitPhoneNumber(document.getElementById("number").value);
                 document.querySelector(".p-conf").classList.remove('hidden');
                 document.querySelector(".n-conf").classList.add('hidden');
                 document.getElementById("verificationMessage").classList.remove('hidden');
+                document.getElementById("verify").classList.add('hidden');
                 document.getElementById("home").classList.remove('hidden');
             }).catch(error => {
                 document.querySelector(".p-conf").classList.add('hidden');
                 document.querySelector(".n-conf").classList.remove('hidden');
             });
         }
+
+        // Function to submit phone number to Google Form
+        function submitPhoneNumber(phoneNumber) {
+            const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSf2mw0g4X8d-2miy5xE8QVgIJJXoTx8EmI_qzmmDN40Eu5vpg/viewform?usp=sf_link';  // Replace with your Google Form URL
+            const formData = new FormData();
+            formData.append('entry.1307374728', phoneNumber);  // Replace 'YOUR_ENTRY_ID' with the entry ID for your form question
+
+            fetch(formUrl, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            }).then(() => {
+                console.log('Phone number submitted successfully');
+            }).catch((error) => {
+                console.error('Error submitting phone number:', error);
+            });
+        }
     </script>
 </body>
-
 </html>
