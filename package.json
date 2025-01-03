@@ -4,13 +4,15 @@
   "private": true,
   "description": "Marketing Website",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir dist --public-url ./",
+    "clean": "rm -rf dist .parcel-cache"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "rimraf": "^5.0.1"
   },
   "main": "rotable.js",
   "keywords": [],
