@@ -1,5 +1,9 @@
 {
   "version": 2,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "public": true,
+  "cleanUrls": true,
   "builds": [
     {
       "src": "package.json",
