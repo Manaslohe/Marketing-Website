@@ -1,10 +1,11 @@
 {
   "name": "web",
   "version": "1.0.0",
-  "description": "Note: Please ensure you have installed <code><a href=\"https://nodejs.org/en/download/\">nodejs</a></code>",
+  "private": true,
+  "description": "Marketing Website",
   "scripts": {
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -18,8 +19,4 @@
     "express": "^4.19.2",
     "twilio": "^5.2.2"
   }
-}
-"scripts": {
-  "start": "parcel serve ./src/index.html",
-  "build": "parcel build ./src/index.html"
 }
