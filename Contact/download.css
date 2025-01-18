@@ -1,57 +1,154 @@
-.image-container {
-    text-align: center;
-    margin-top: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.responsive-image {
-  margin-top: 60px;
-  max-width: 60%;
-  height: 450px;
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #1c1d1e 0%, #575a5e 100%);
 }
 
-/* Media query for screens with a maximum width of 768 pixels (adjust as needed) */
-@media only screen and (max-width: 768px) {
-  .responsive-image {
-    max-width: 60%; /* Set to 100% for smaller screens */
-    margin-top: 0px; /* Remove margin-top in mobile view */
-  }
+/* Navbar Styles */
+.navbar {
+  background-color: #242424;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem 0;
 }
 
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .button-container {
-    margin-top: 10px;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color: #00ff0a;
-    color: #fff;
-    border-radius: 5px;
-    margin-right: 10px;
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #00ff0a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-  }
- .en-badge-web-generic {
-    position: relative;
-    width: 201.3px;
-    height: 60px;
-   transition: all 0.3s ease; /* Add a smooth transition for a smoother hover effect */
-   margin-bottom: 100px;
-  }
+.logo:hover {
+  color: #00ff0a;
+}
+
+.nav-link {
+  color: #00ff0a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00ff0a;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #00ff0a;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.store-button {
+  transition: transform 0.3s ease;
+}
+
+.store-button:hover {
+  transform: translateY(-5px);
+}
+
+.download-on-the-app,
+.en-badge-web-generic {
+  height: 50px;
+  width: auto;
+  transition: all 0.3s ease;
+}
+
+.download-on-the-app:hover,
 .en-badge-web-generic:hover {
-    box-shadow: 0 0 10px 4px rgb(83, 255, 152); /* Increase blur and spread for a more visible shadow effect */
-    border-radius: 14px; /* Adjust the radius to make corners smooth on hover */
+  box-shadow: 0 0 15px rgba(0, 255, 10, 0.3);
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.app-preview {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #242424;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-container {
+      flex-direction: column-reverse;
+      text-align: center;
   }
-  
-.download-on-the-app {
-    position: relative;
-    width: 180.87px;
-    height: 60px;
-    transition: all 0.3s ease; /* Add a smooth transition for a smoother hover effect */
-    margin-bottom: 100px;
+
+  .store-buttons {
+      justify-content: center;
   }
-.download-on-the-app:hover {
-    box-shadow: 0 0 10px 4px rgb(83, 255, 152); /* Increase blur and spread for a more visible shadow effect */
-    border-radius: 14px; /* Adjust the radius to make corners smooth on hover */
+
+  .title {
+      font-size: 2rem;
   }
+
+  .app-preview {
+      max-height: 400px;
+  }
+}

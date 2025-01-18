@@ -806,6 +806,105 @@ background-color: #f0f0f0; /* Optional: Set background color */
     min-height: 2400px;
   }
 }
+
+/* Update rectangle parent container */
+.rectangle-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Update the feature card styles */
+.ellipse-parent,
+.ellipse-group,
+.ellipse-container,
+.ellipse-parent1,
+.ellipse-parent2 {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cards */
+.ellipse-parent:hover,
+.ellipse-group:hover,
+.ellipse-container:hover,
+.ellipse-parent1:hover,
+.ellipse-parent2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 255, 0, 0.2);
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 1024px) {
+  .rectangle-parent {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rectangle-parent {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ellipse-parent,
+  .ellipse-group,
+  .ellipse-container,
+  .ellipse-parent1,
+  .ellipse-parent2 {
+    max-width: 100%;
+    padding: 15px;
+  }
+}
+
+/* Update the circle icons in feature cards */
+.frame-inner,
+.ellipse-div,
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+/* Update feature text styles */
+.feature-name,
+.feature-name1,
+.feature-name2,
+.feature-name3,
+.feature-name4,
+.feature-name5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.lorem-ipsum-dolor,
+.lorem-ipsum-dolor1,
+.lorem-ipsum-dolor2,
+.lorem-ipsum-dolor3,
+.lorem-ipsum-dolor4,
+.lorem-ipsum-dolor5 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .arrow-vectors-icon {
   position: absolute;
   top: 0;
@@ -1392,4 +1491,41 @@ body {
           display: none; /* Hide the container in desktop view */
       }
   }
-  
+
+/* Feature icon styles */
+.feature-icon {
+  font-size: 32px;
+  color: #00ff08;
+  transition: transform 0.3s ease;
+}
+
+.ellipse-parent:hover .feature-icon,
+.ellipse-group:hover .feature-icon,
+.ellipse-container:hover .feature-icon,
+.ellipse-parent1:hover .feature-icon,
+.ellipse-parent2:hover .feature-icon {
+  transform: scale(1.2);
+}
+
+/* Update circle containers */
+.frame-inner,
+.ellipse-div,
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.ellipse-parent:hover .frame-inner,
+.ellipse-group:hover .ellipse-div,
+.ellipse-container:hover .frame-child1,
+.ellipse-parent1:hover .frame-child2,
+.ellipse-parent2:hover .frame-child3,
+.ellipse-parent2:hover .frame-child4 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
