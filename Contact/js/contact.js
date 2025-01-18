@@ -1,87 +1,95 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Form validation
+    // Initialize AOS
+    AOS.init({
+        duration: 800,
+        easing: 'ease',
+        once: true
+    });
+
+    // Form handling
     const contactForm = document.getElementById('contactForm');
     const inputs = document.querySelectorAll('.contact-form__input');
 
+    // Add floating label effect
     inputs.forEach(input => {
-        input.addEventListener('focus', function() {
-            this.parentElement.classList.add('focused');
-        });
-
-        input.addEventListener('blur', function() {
-            if (this.value === '') {
-                this.parentElement.classList.remove('focused');
-            }
+        input.addEventListener('input', function() {
+            this.parentElement.classList[this.value ? 'add' : 'remove']('has-value');
         });
     });
 
-    contactForm.addEventListener('submit', function(e) {
+    // Form validation and submission
+    contactForm.addEventListener('submit', async function(e) {
         e.preventDefault();
         
-        // Basic validation
-        let isValid = true;
-        inputs.forEach(input => {
-            if (!input.value.trim()) {
-                isValid = false;
-                showError(input, 'This field is required');
-            } else {
-                removeError(input);
-            }
-        });
+        const submitBtn = this.querySelector('button[type="submit"]');
+        submitBtn.classList.add('loading');
+        submitBtn.disabled = true;
 
-        if (isValid) {
-            // Show success message
-            showSuccessMessage();
-            // Reset form
-            contactForm.reset();
+        // Simulate form submission
+        try {
+            await new Promise(resolve => setTimeout(resolve, 2000)); // Simulate API call
+            showSuccessMessage('Message sent successfully! We\'ll get back to you soon.');
+            this.reset();
+        } catch (error) {
+            showError(null, 'Something went wrong. Please try again.');
+        } finally {
+            submitBtn.classList.remove('loading');
+            submitBtn.disabled = false;
         }
     });
 
-    // Scroll animations
-    const animateOnScroll = function() {
-        const elements = document.querySelectorAll('.animate-on-scroll');
-        
-        elements.forEach(element => {
-            const elementPosition = element.getBoundingClientRect().top;
-            const screenPosition = window.innerHeight;
+    // Scroll animations for contact info items
+    const observerOptions = {
+        threshold: 0.2
+    };
 
-            if(elementPosition < screenPosition) {
-                element.classList.add('animated');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-in');
+                observer.unobserve(entry.target);
             }
         });
-    }
+    }, observerOptions);
 
-    window.addEventListener('scroll', animateOnScroll);
+    document.querySelectorAll('.contact-info__item').forEach(item => {
+        observer.observe(item);
+    });
 
-    // Helper functions
+    // Enhanced error handling
     function showError(input, message) {
-        const formGroup = input.parentElement;
-        const error = formGroup.querySelector('.error-message') || document.createElement('div');
-        error.className = 'error-message';
-        error.textContent = message;
-        if (!formGroup.querySelector('.error-message')) {
-            formGroup.appendChild(error);
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'error-message';
+        errorDiv.textContent = message;
+        
+        if (input) {
+            const parent = input.parentElement;
+            if (!parent.querySelector('.error-message')) {
+                parent.appendChild(errorDiv);
+            }
+        } else {
+            contactForm.insertAdjacentElement('beforeend', errorDiv);
         }
-        formGroup.classList.add('error');
-    }
-
-    function removeError(input) {
-        const formGroup = input.parentElement;
-        const error = formGroup.querySelector('.error-message');
-        if (error) {
-            formGroup.removeChild(error);
-        }
-        formGroup.classList.remove('error');
-    }
-
-    function showSuccessMessage() {
-        const successMessage = document.createElement('div');
-        successMessage.className = 'success-message animate-on-scroll';
-        successMessage.textContent = 'Thank you for your message. We will get back to you soon!';
-        contactForm.insertAdjacentElement('afterend', successMessage);
 
         setTimeout(() => {
-            successMessage.remove();
+            errorDiv.remove();
+        }, 5000);
+    }
+
+    // Enhanced success message
+    function showSuccessMessage(message) {
+        const successDiv = document.createElement('div');
+        successDiv.className = 'success-message';
+        successDiv.textContent = message;
+        
+        contactForm.insertAdjacentElement('afterend', successDiv);
+
+        // Add animation
+        successDiv.style.animation = 'slideIn 0.5s ease forwards';
+
+        setTimeout(() => {
+            successDiv.style.animation = 'slideOut 0.5s ease forwards';
+            setTimeout(() => successDiv.remove(), 500);
         }, 5000);
     }
 });
